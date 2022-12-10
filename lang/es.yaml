@@ -103,7 +103,7 @@
 "3dlut.madvr.colorspace.unsupported": |-
   The source colorspace %s with the primary chromaticity xy coordinates red %.4f %.4f, green %.4f %.4f, blue %.4f %.4f is not supported by madVR for automatic installation. Please assign the 3D LUT manually in madVR.
 "3dlut.save_as": |-
-  Save 3D LUT as...
+  Guardar LUT 3D como...
 "3dlut.settings": |-
   3D LUT settings
 "3dlut.size": |-
@@ -486,7 +486,7 @@
 "calibrationloader.description": |-
   Sets ICC profiles and loads calibration curves for all configured display devices
 "can_be_used_independently": |-
-  Se puede utilizar de forma independiente
+  Se puede utilizar de forma independ.
 "cancel": |-
   Cancelar
 "cat02": |-
@@ -632,7 +632,7 @@
 "color_look_up_table": |-
   Color Look Up Table
 "color_model": |-
-  Color model
+  Modelo de color
 "color_space_conversion_profile": |-
   Color space Conversion profile
 "colorant_order": |-
@@ -775,7 +775,7 @@
 "default_crt": |-
   Default CRT
 "default_rendering_intent": |-
-  Default rendering intent
+  Propósito de conversión predet.
 "delete": |-
   Borrar
 "delta_e_2000_to_blackbody_locus": |-
@@ -987,21 +987,21 @@
 "display_detected": |-
   A change in the display device configuration has been detected.
 "display_device_profile": |-
-  Display device profile
+  Perfil para pantalla
 "display_lut.link": |-
   Link/unlink display and video card gamma table access
 "display_peak_luminance": |-
   Target peak luminance
 "display_profile.not_detected": |-
-  No current profile detected for display “%s”
+  No parece haber ningún perfil compatible con la pantalla «%s»
 "display_short": |-
   Display device (abbreviated)
 "displayport": |-
   DisplayPort
 "displays.identify": |-
-  Identify display devices
+  Identificar pantallas
 "dlp_screen": |-
-  DLP Screen
+  Pantalla DLP
 "donation_header": |-
   Your support is appreciated!
 "donation_message": |-
@@ -1046,7 +1046,7 @@
 "edid.serial": |-
   EDID serial
 "elapsed_time": |-
-  Elapsed time
+  Tiempo transcurrido
 "electrophotographic_printer": |-
   Electrophotographic printer
 "electrostatic_printer": |-
@@ -1173,10 +1173,10 @@
 "file.hash.missing": |-
   The integrity of %s cannot be verified because it doesn't have an entry in the checksum file.
 "file.hash.verification.fail": |-
-  Checksum verification failed for %s:
+  El resultado de la suma de comprobación en %s no coindice:
   
-  Expected %s
-  Actual %s
+  Se esperaba %s
+  Se ha obtenido %s
 "file.invalid": |-
   El archivo no parece ser correcto.
 "file.missing": |-
@@ -1242,7 +1242,7 @@
 "flare": |-
   Flare
 "flexography": |-
-  Flexography
+  Flexografía
 "focal_plane_colorimetry_estimates": |-
   Focal plane colorimetry estimates
 "forced": |-
@@ -1255,7 +1255,7 @@
 "fullscreen.osx.warning": |-
   If you enter fullscreen mode using the zoom button in the window title bar, please press CMD + TAB to switch back to normal mode after the window has been closed. Alternatively, you can go fullscreen by double-clicking the title bar or holding the OPTION key while clicking the zoom button.
 "gamap.default_intent": |-
-  Default rendering intent
+  Propósito de conversión predet.
 "gamap.intents.a": |-
   Absolute colorimetric
 "gamap.intents.aa": |-
@@ -1267,17 +1267,17 @@
 "gamap.intents.lp": |-
   Luminance preserving perceptual appearance
 "gamap.intents.ms": |-
-  Preserve saturation
+  Mantener saturación
 "gamap.intents.p": |-
-  Perceptual
+  Perceptiva
 "gamap.intents.pa": |-
-  Perceptual appearance
+  Apariencia perceptiva
 "gamap.intents.r": |-
-  Relative colorimetric
+  Colorimétrica relativa
 "gamap.intents.s": |-
-  Saturation
+  Saturación
 "gamap.out_viewcond": |-
-  Destination viewing conditions
+  Condiciones de visionado finales
 "gamap.perceptual": |-
   Gamut mapping for perceptual intent
 "gamap.profile": |-
@@ -1347,7 +1347,7 @@
 "grayscale": |-
   tonos de gris
 "green": |-
-  Green
+  Verde
 "green_gamma": |-
   Green gamma
 "green_lab": |-
@@ -1375,7 +1375,7 @@
 "help_support": |-
   Ayuda y apoyo técnico...
 "host.invalid.lookup_failed": |-
-  Invalid host (address lookup failed)
+  Servidor no disponible (no se encontró la dirección IP anfitriona)
 "hpe_d65": |-
   Hunt-Pointer-Estevez (HPE), illuminant D65
 "hpe_e": |-
@@ -1385,7 +1385,7 @@
 "icc_absolute_colorimetric": |-
   ICC-absolute colorimetric
 "icc_version": |-
-  ICC version
+  Versión de ICC
 "if_available": |-
   if available
 "illuminant": |-
@@ -1416,7 +1416,7 @@
   “Absolute” gamma results in an actual output at 50% input which doesn't match that of an idealized power curve (unless the black level is zero).
   “Relative” gamma results in an actual output at 50% input which matches that of an idealized power curve.
   
-  <font weight='bold'>Rendering intent</font>
+  <font weight='bold'>Propósito de conversión</font>
   If you have calibrated to a different whitepoint than the one mandated by the source colorspace, and want to use that for the 3D LUT instead, select “Relative colorimetric”. Otherwise, select “Absolute colorimetric with white point scaling” (white point scaling will prevent clipping in absolute colorimetric mode that could happen if the source colorspace whitepoint is outside of the display gamut). You also have the option to use a non-colorimetric rendering intent that may compress or expand the source colorspace to fit within the display gamut (not recommended when colorimetric accuracy is required).
 "info.calibration_settings": |-
   <font weight='bold'>Calibration</font> is done by <font weight='bold'>interactively adjusting the display</font> to meet the chosen whitepoint and/or luminance as well as optionally creating <font weight='bold'>1D LUT calibration curves</font> (LUT = Look Up Table) to meet the chosen tone response curve and ensure gray balance. Note that if during calibration you only want to adjust the display and skip the generation of 1D LUT curves, you need to set the tone response curve to “As measured”. 1D LUT calibration can <font weight='bold'>not</font> be used for full display color correction, you need to create a <font weight='bold'>ICC device profile</font> or <font weight='bold'>3D LUT</font> and use them with applications that support them for that purpose. 1D LUT calibration complements profiling and 3D LUT calibration though.
@@ -1473,11 +1473,11 @@
 "initial": |-
   Initial
 "initializing_gui": |-
-  Initializing GUI...
+  Cargando la interfaz de usuario...
 "ink_jet_printer": |-
   Impresora de injección de tinta
 "input_device_profile": |-
-  Input device profile
+  Perfil del dispositivo de entrada
 "input_table": |-
   Input Table
 "install_display_profile": |-
@@ -1501,15 +1501,15 @@
 "instrument.colormunki": |-
   ColorMunki Design/Photo, i1Studio
 "instrument.connect": |-
-  Please connect your measurement instrument now.
+  Es el momento de conectar el instrumento de medición.
 "instrument.initializing": |-
-  Setting up the instrument, please wait...
+  Configurando el instrumento, un momento...
 "instrument.measure_ambient": |-
   If your instrument requires a special cap to measure ambient, please attach it. To measure ambient light, place the instrument upwards, beside the display. Or if you want to measure a viewing booth, put a metamerism-free gray card inside the booth and point the instrument towards it. Further instructions how to measure ambient may be available in your instrument's documentation. Press OK to commence measurement.
 "instrument.place_on_screen": |-
-  Place the instrument on the test window and click OK to continue.
+  Ubica el instrumento en la ventana de medición y presiona «Aceptar» para continuar.
 "instrument.place_on_screen.madvr": |-
-  (%i) Please place your %s on the test area
+  (%i) Ubica el %s en el área de medición
 "instrument.reposition_sensor": |-
   The measurement failed because the instrument sensor is in the wrong position. Please correct the sensor position, then click OK to continue.
 "internal": |-
@@ -1517,11 +1517,11 @@
 "interval": |-
   Intervalo
 "invert_selection": |-
-  Invert selection
+  Invertir selección
 "ipt": |-
   IPT
 "is_embedded": |-
-  Is embedded
+  Es de tipo incrustado
 "is_illuminant": |-
   Is illuminant
 "is_linear": |-
@@ -1573,7 +1573,7 @@
 "magenta": |-
   Magenta
 "make_and_model": |-
-  Make and model
+  Marca y modelo
 "manufacturer": |-
   Fabricante
 "mastering_display_black_luminance": |-
@@ -1636,27 +1636,27 @@
 "measurement_file.choose.reference": |-
   Please choose a reference measurement file
 "measurement_mode": |-
-  Mode
+  Modo
 "measurement_mode.adaptive": |-
-  Adaptive
+  Adaptable
 "measurement_mode.dlp": |-
   DLP
 "measurement_mode.factory": |-
   Factory calibration
 "measurement_mode.generic": |-
-  Generic
+  Genérico
 "measurement_mode.highres": |-
   HiRes
 "measurement_mode.lcd": |-
-  LCD (generic)
+  LCD (genérico)
 "measurement_mode.lcd.ccfl": |-
   LCD CCFL
 "measurement_mode.lcd.ccfl.2": |-
-  LCD CCFL Type 2
+  LCD CCFL de tipo 2
 "measurement_mode.lcd.oled": |-
   OLED
 "measurement_mode.lcd.white_led": |-
-  LCD White LED
+  LCD con luz LED blanca
 "measurement_mode.lcd.wide_gamut.ccfl": |-
   LCD CCFL Wide Gamut
 "measurement_mode.lcd.wide_gamut.gb_led": |-
@@ -1666,7 +1666,7 @@
 "measurement_mode.lcd.wide_gamut.rgb_led": |-
   LCD RGB LED
 "measurement_mode.raw": |-
-  Raw
+  En crudo
 "measurement_mode.refresh": |-
   Refresh (genérico)
 "measurement_report": |-
@@ -1688,13 +1688,13 @@
 "measuring.characterization": |-
   Measuring color swatches for characterization...
 "media_attributes": |-
-  Media attributes
+  Atributos del medio
 "media_black_point": |-
-  Media black point
+  Punto negro del medio
 "media_relative_colorimetric": |-
   Media-relative colorimetric
 "media_white_point": |-
-  Media white point
+  Punto blanco del medio
 "menu.about": |-
   Acerca de...
 "menu.file": |-
@@ -1720,7 +1720,7 @@
 "minimal": |-
   Minimal
 "model": |-
-  Modelp
+  Modelo
 "motion_picture_film_scanner": |-
   Motion picture film scanner
 "mswin.open_display_settings": |-
@@ -2033,7 +2033,7 @@
 "profile_associations.use_my_settings": |-
   Use my settings for this display device
 "profile_class": |-
-  Clase de perfil
+  Tipo de perfil
 "profile_connection_space_pcs": |-
   Profile connection space (PCS)
 "profile_loader": |-
@@ -2109,7 +2109,7 @@
 "remove": |-
   Borrar
 "rendering_intent": |-
-  Rendering intent
+  Propósito de conversión
 "report": |-
   Informe
 "report.calibrated": |-
@@ -2195,7 +2195,7 @@
 "simulation_profile": |-
   Simulation profile
 "size": |-
-  Size
+  Tamaño
 "skip_legacy_serial_ports": |-
   Skip legacy serial ports
 "softproof.icc": |-
