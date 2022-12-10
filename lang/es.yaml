@@ -1,13 +1,13 @@
 "*": |-
   Note to translators: Keys which are not yet translated are marked with a leading asterisk (*). Please remove the asterisk when translated. Please keep placeholders (percent sign followed by format string, e.g. %s, %i, %f etc.) intact.
 "!author": |-
-  Florian Höch
+  Swyter
 "!language": |-
-  English
+  Castellano
 "!language_name": |-
-  ENGLISH
+  SPANISH
 "3dlut": |-
-  3D LUT
+  LUT 3D
 "3dlut.1dlut.videolut.nonlinear": |-
   The display device's video card gamma tables 1D LUT calibration is non-linear, but the 3D LUT contains applied 1D LUT calibration. Make sure to manually reset the video card gamma tables to linear before using the 3D LUT, or create a 3D LUT without calibration applied (to do the latter, enable “Show advanced options” in the “Options” menu and disable “Apply calibration (vcgt)” as well as “Create 3D LUT after profiling” in the 3D LUT settings, then create a new 3D LUT).
 "3dlut.bitdepth.input": |-
@@ -165,7 +165,7 @@
 "adjust_rolloff": |-
   Adjust roll-off
 "advanced": |-
-  Advanced
+  Avanzado
 "allow_skip_sensor_cal": |-
   Allow skipping of instrument self-calibration
 "ambient.measure": |-
@@ -185,7 +185,7 @@
 "app.client.network.disallowed": |-
   Refused connection attempt of scripting client %s:%s: Network clients are not allowed.
 "app.confirm_restore_defaults": |-
-  Do you really want to discard your changes and restore defaults?
+  ¿Seguro que quieres perder todos tus cambios y volver a los valores originales?
 "app.detected": |-
   Detected %s.
 "app.detected.calibration_loading_disabled": |-
@@ -201,11 +201,11 @@
 "app.listening": |-
   Setting up scripting host at %s:%s
 "app.otherinstance": |-
-  %s is already running.
+  %s ya está en ejecución.
 "app.otherinstance.notified": |-
   Already running instance has been notified.
 "apply": |-
-  Apply
+  Aplicar
 "apply_black_output_offset": |-
   Apply black output offset (100%)
 "apply_cal": |-
@@ -213,9 +213,9 @@
 "apply_cal.error": |-
   Calibration could not be applied.
 "archive.create": |-
-  Create compressed archive...
+  Crear archivo comprimido...
 "archive.import": |-
-  Import archive...
+  Importar archivo...
 "archive.include_3dluts": |-
   Do you want to include 3D LUT files in the archive (not recommended, leads to larger archive file size)?
 "argyll.debug.warning1": |-
@@ -282,7 +282,7 @@
 "backlight": |-
   Backlight
 "bitdepth": |-
-  Bitdepth
+  Profundidad de bits
 "black": |-
   Black
 "black_lab": |-
@@ -330,9 +330,9 @@
 "bug_report": |-
   Report a bug...
 "button.calibrate": |-
-  Calibrate only
+  Solo calibrar
 "button.calibrate_and_profile": |-
-  Calibrate & profile
+  Calibrar y crear un perfil
 "button.profile": |-
   Profile only
 "cal_extraction_failed": |-
@@ -342,7 +342,7 @@
 "calibrate_instrument": |-
   Instrument self-calibration
 "calibration": |-
-  Calibration
+  Calibración
 "calibration.ambient_viewcond_adjust": |-
   Ambient light level adjustment
 "calibration.ambient_viewcond_adjust.info": |-
@@ -360,7 +360,7 @@
 "calibration.check_all": |-
   Check settings
 "calibration.complete": |-
-  Calibration complete!
+  Calibración concluida
 "calibration.create_fast_matrix_shaper": |-
   Create matrix profile
 "calibration.create_fast_matrix_shaper_choice": |-
@@ -372,13 +372,13 @@
 "calibration.embed": |-
   Embed calibration curves in profile
 "calibration.file": |-
-  Settings
+  Ajustes
 "calibration.file.invalid": |-
   The chosen settings file is invalid.
 "calibration.file.none": |-
   <None>
 "calibration.incomplete": |-
-  Calibration has not been finished.
+  La calibración todavía no ha terminado.
 "calibration.interactive_display_adjustment": |-
   Interactive display adjustment
 "calibration.interactive_display_adjustment.black_level.crt": |-
@@ -432,17 +432,17 @@
 "calibration.preview": |-
   Preview calibration
 "calibration.quality": |-
-  Calibration quality
+  Calidad de la calibración
 "calibration.quality.high": |-
-  High
+  Alta
 "calibration.quality.low": |-
-  Low
+  Baja
 "calibration.quality.medium": |-
-  Medium
+  Intermedia
 "calibration.quality.ultra": |-
   Ultra
 "calibration.quality.verylow": |-
-  Very low
+  Muy baja
 "calibration.reset": |-
   Reset video card gamma table
 "calibration.reset_error": |-
@@ -452,7 +452,7 @@
 "calibration.resetting": |-
   Resetting video card gamma table to linear...
 "calibration.settings": |-
-  Calibration settings
+  Ajustes de calibración
 "calibration.show_actual_lut": |-
   Show calibration curves from video card
 "calibration.show_lut": |-
@@ -460,35 +460,35 @@
 "calibration.skip": |-
   Continue on to profiling
 "calibration.speed": |-
-  Calibration speed
+  Velocidad de calibración
 "calibration.speed.high": |-
-  High
+  Alta
 "calibration.speed.low": |-
-  Low
+  Baja
 "calibration.speed.medium": |-
-  Medium
+  Intermedia
 "calibration.speed.veryhigh": |-
-  Very high
+  Muy alta
 "calibration.speed.verylow": |-
-  Very low
+  Muy baja
 "calibration.start": |-
-  Continue on to calibration
+  Seguir con la calibración
 "calibration.update": |-
-  Update calibration
+  Recalibrar
 "calibration.update_profile_choice": |-
   Do you want to also update the calibration curves in the existing profile or just calibrate?
 "calibration.use_linear_instead": |-
   Use linear calibration instead
 "calibration.verify": |-
-  Verify calibration
+  Verificar calibración
 "calibration_profiling.complete": |-
   Calibration and profiling complete!
 "calibrationloader.description": |-
   Sets ICC profiles and loads calibration curves for all configured display devices
 "can_be_used_independently": |-
-  Can be used independently
+  Se puede utilizar de forma independiente
 "cancel": |-
-  Cancel
+  Cancelar
 "cat02": |-
   CAT02 (from CIECAM02)
 "cat02bs": |-
@@ -594,7 +594,7 @@
 "channel_4_k_xy": |-
   Channel 4 (K) xy
 "channels": |-
-  Channels
+  Canales
 "characterization_device_values": |-
   Characterization device values
 "characterization_measurement_values": |-
@@ -604,9 +604,9 @@
 "checking_lut_access": |-
   Checking video card gamma table access for display %s...
 "checksum": |-
-  Checksum
+  Suma de comprobación
 "checksum_ok": |-
-  Checksum OK
+  La suma coincide con lo esperado
 "chromatic_adaptation": |-
   Chromatic adaptation...
 "chromatic_adaptation_matrix": |-
@@ -622,7 +622,7 @@
 "clear": |-
   Clear
 "close": |-
-  Close
+  Cerrar
 "cmccat97": |-
   CMCCAT97
 "cmccat2000": |-
@@ -699,45 +699,45 @@
 "colors_pcs_relative": |-
   Colors (PCS-relative)
 "colorspace": |-
-  Colorspace
+  Espacio de colores
 "colorspace.show_outline": |-
   Show outline
 "commandline": |-
-  Command line:
+  Línea de órdenes:
 "commands": |-
-  Commands
+  Órdenes
 "comparison_profile": |-
   Comparison profile
 "comport_detected": |-
   A change in the instrument/port configuration has been detected.
 "compression.gzip": |-
-  GZIP compression
+  Compresión GZIP
 "computer.name": |-
-  Computername
+  Nombre del equipo
 "connected.to.at": |-
-  Connected to %s at %s:%s
+  Conectado con %s en %s:%s
 "connecting.to": |-
   Connecting to %s:%s...
 "connection.broken": |-
-  Connection broken
+  Se ha desconectado
 "connection.established": |-
-  Connection established
+  Se ha establecido la conexión
 "connection.fail": |-
-  Connection error (%s)
+  Error de conexión (%s)
 "connection.fail.http": |-
-  HTTP error %s
+  Error HTTP %s
 "connection.waiting": |-
-  Waiting for connection at
+  Esperando una conexión con
 "continue": |-
-  Continue
+  Continuar
 "contrast": |-
-  Contrast
+  Contraste
 "contribute": |-
-  Contribute
+  Contribuir
 "converting": |-
   Converting
 "copyright": |-
-  Copyright
+  Derechos de autor
 "corrected": |-
   corrected
 "create_profile": |-
@@ -745,13 +745,13 @@
 "create_profile_from_edid": |-
   Create profile from extended display identification data...
 "created": |-
-  Created
+  Fecha de creación
 "creator": |-
-  Creator
+  Creado por
 "current": |-
-  Current
+  Actual
 "custom": |-
-  Custom
+  Personalizado
 "cyan": |-
   Cyan
 "d3-e4-s2-g28-m0-b0-f0.ti1": |-
@@ -767,17 +767,17 @@
 "d3-e4-s17-g52-m17-b0-f0.ti1": |-
   Very large testchart for LUT profiles
 "deactivated": |-
-  deactivated
+  desactivado
 "default": |-
-  Default
+  Predeterminado
 "default.icc": |-
-  Default (Gamma 2.2)
+  Predeterminado (Gamma 2.2)
 "default_crt": |-
   Default CRT
 "default_rendering_intent": |-
   Default rendering intent
 "delete": |-
-  Delete
+  Borrar
 "delta_e_2000_to_blackbody_locus": |-
   ΔE 2000 to blackbody locus
 "delta_e_2000_to_daylight_locus": |-
@@ -785,41 +785,41 @@
 "delta_e_to_locus": |-
   ΔE*00 to %s locus
 "description": |-
-  Description
+  Descripción
 "description_ascii": |-
-  Description (ASCII)
+  Descripción (ASCII)
 "description_macintosh": |-
-  Description (Macintosh)
+  Descripción (Macintosh)
 "description_unicode": |-
-  Description (Unicode)
+  Descripción (Unicode)
 "deselect_all": |-
-  Deselect all
+  Deseleccionar todo
 "detect_displays_and_ports": |-
-  Detect display devices and instruments
+  Detectar pantallas e instrumentos
 "device": |-
-  Device
+  Dispositivo
 "device.name.placeholder": |-
-  <Name of the device>
+  <Nombre del dispositivo>
 "device_color_components": |-
   Device color components
 "device_manager.launch": |-
-  Launch Device Manager
+  Ejecutar el Administrador de dispositivos
 "device_manufacturer_name": |-
-  Device manufacturer name
+  Nombre del fabricante
 "device_manufacturer_name_ascii": |-
-  Device manufacturer name (ASCII)
+  Nombre del fabricante (ASCII)
 "device_manufacturer_name_macintosh": |-
-  Device manufacturer name (Macintosh)
+  Nombre del fabricante (Macintosh)
 "device_manufacturer_name_unicode": |-
-  Device manufacturer name (Unicode)
+  Nombre del fabricante (Unicode)
 "device_model_name": |-
-  Device model name
+  Nombre del modelo
 "device_model_name_ascii": |-
-  Device model name (ASCII)
+  Nombre del modelo (ASCII)
 "device_model_name_macintosh": |-
-  Device model name (Macintosh)
+  Nombre del modelo (Macintosh)
 "device_model_name_unicode": |-
-  Device model name (Unicode)
+  Nombre del modelo (Unicode)
 "device_to_pcs_intent_0": |-
   Device to PCS: Intent 0
 "device_to_pcs_intent_1": |-
@@ -877,15 +877,15 @@
 "direction.forward.inverted": |-
   Device ← A2B ← PCS
 "directory": |-
-  Directory
+  Carpeta
 "disconnected.from": |-
   Disconnected from %s:%s
 "display": |-
-  Display
+  Pantalla
 "display-instrument": |-
-  Display & instrument
+  Pantalla e instrumento
 "display.connection.type": |-
-  Connection
+  Conexión
 "display.levels_issue_detected": |-
   The measured luminance difference between RGB level 0 and 16 is below 0.02 cd/m², indicating clipping. Likely either the display device's input- and/or black level setting is incorrect, and/or the output levels configuration of the graphics driver is wrong.
   
@@ -895,9 +895,9 @@
 "display.manufacturer": |-
   Display device manufacturer
 "display.output": |-
-  Output #
+  Salida nº 
 "display.primary": |-
-  (Primary)
+  (Principal)
 "display.properties": |-
   Display device properties
 "display.reset.info": |-
@@ -905,7 +905,7 @@
 "display.settings": |-
   Display device settings
 "display.tech": |-
-  Display technology
+  Tecnologías de pantalla
 "display.tech.CRT": |-
   CRT
 "display.tech.DLP Projector": |-
@@ -983,7 +983,7 @@
 "display.tech.Plasma": |-
   Plasma
 "display.tech.Unknown": |-
-  Unknown
+  Desconocida
 "display_detected": |-
   A change in the display device configuration has been detected.
 "display_device_profile": |-
@@ -1010,17 +1010,17 @@
   
   Thanks to all contributors!
 "download": |-
-  Download
+  Descargar
 "download.fail": |-
-  Download failed:
+  La descarga ha fallado:
 "download.fail.empty_response": |-
   Download failed: %s returned an empty document.
 "download.fail.wrong_size": |-
   Download failed: The file does not have the expected size of %s bytes (received %s bytes).
 "download_install": |-
-  Download & install
+  Descargar e instalar
 "downloading": |-
-  Downloading
+  Descargando
 "drift_compensation.blacklevel": |-
   Black level drift compensation
 "drift_compensation.blacklevel.info": |-
@@ -1030,13 +1030,13 @@
 "drift_compensation.whitelevel.info": |-
   White level drift compensation tries to counter measurement deviations caused by luminance changes of a warming up display device. For this purpose, a white test patch is measured periodically, which increases the overall time needed for measurements.
 "dry_run": |-
-  Dry run
+  Ejecución simulada
 "dry_run.end": |-
-  Dry run ended.
+  La simulación ha concluido.
 "dry_run.info": |-
-  Dry run. Check the log to see the command line.
+  Simulación. Mira el registro para ver la línea de comandos.
 "duration": |-
-  Duration
+  Duración
 "dvi": |-
   DVI
 "dye_sublimation_printer": |-
@@ -1066,11 +1066,11 @@
 "enumerating_displays_and_comports": |-
   Enumerating display devices and communication ports...
 "environment": |-
-  Environment
+  Entorno
 "error": |-
   Error
 "error.access_denied.write": |-
-  You do not have write access to %s
+  El usuario no tiene permiso de escritura en %s
 "error.already_exists": |-
   The name “%s” can not be used, because another object of the same name already exists. Please choose another name or another directory.
 "error.autostart_creation": |-
@@ -1102,10 +1102,10 @@
 "error.file_type_unsupported": |-
   Unsupported filetype.
 "error.generic": |-
-  An internal error occured.
+  Se ha producido un error interno del programa.
   
-  Error code: %s
-  Error message: %s
+  Código del error: %s
+  Mensaje de error: %s
 "error.luminance.invalid": |-
   The measured peak luminance was invalid. Make sure the instrument sensor is not obstructed, and remove any protective cap (if present).
 "error.luminance.not_monotonically_increasing": |-
@@ -1155,17 +1155,17 @@
 "estimated_measurement_time": |-
   Estimated measurement time approximately %s hour(s) %s minutes
 "exceptions": |-
-  Exceptions...
+  Excepciones...
 "executable": |-
-  Executable
+  Ejecutable
 "export": |-
-  Export...
+  Exportar...
 "extra_args": |-
   Set additional commandline arguments...
 "factory_default": |-
   Factory Default
 "failure": |-
-  ...failed!
+  ...¡ha fallado!
 "ffp_insertion": |-
   Full field pattern insertion
 "file.hash.malformed": |-
@@ -1178,21 +1178,21 @@
   Expected %s
   Actual %s
 "file.invalid": |-
-  File invalid.
+  El archivo no parece ser correcto.
 "file.missing": |-
   The file “%s” does not exist.
 "file.notfile": |-
   “%s” is not a file.
 "file.select": |-
-  Select file
+  Elegir un archivo
 "filename": |-
-  File name
+  Nombre de archivo
 "filename.upload": |-
   Upload filename
 "filetype.7z": |-
-  7-Zip files
+  Archivos de 7-Zip
 "filetype.any": |-
-  Any Filetype
+  Cualquier tipo de archivo
 "filetype.cal": |-
   Calibration files (*.cal)
 "filetype.cal_icc": |-
@@ -1200,7 +1200,7 @@
 "filetype.ccmx": |-
   Correction matrices/Calibration spectral samples (*.ccmx;*.ccss)
 "filetype.html": |-
-  HTML files (*.html;*.htm)
+  Archivos HTML (*.html;*.htm)
 "filetype.icc": |-
   Profile files (*.icc;*.icm)
 "filetype.icc_mpp": |-
@@ -1210,11 +1210,11 @@
 "filetype.icc_ti3": |-
   Measurement files (*.icc;*.icm;*.ti3)
 "filetype.log": |-
-  Log files (*.log)
+  Archivos de registro (*.log)
 "filetype.png": |-
   Portable Network Graphics (*.png)
 "filetype.tgz": |-
-  Compressed TAR archive
+  Archivo comprimido TAR
 "filetype.ti1": |-
   Testchart files (*.ti1)
 "filetype.ti1_ti3_txt": |-
@@ -1226,17 +1226,17 @@
 "filetype.txt": |-
   DeviceCorrections.txt
 "filetype.vrml": |-
-  VRML files (*.wrl)
+  Archivos VRML (*.wrl)
 "filetype.x3d": |-
-  X3D files (*.x3d)
+  Archivos X3D (*.x3d)
 "filetype.zip": |-
-  ZIP files
+  Archivos ZIP
 "film_scanner": |-
-  Film scanner
+  Escáner de película
 "film_writer": |-
   Film writer
 "finish": |-
-  Finish
+  Terminar
 "fix_output_levels_using_vcgt": |-
   Fix output levels using video card gamma table
 "flare": |-
@@ -1333,19 +1333,19 @@
 "generic_name_value_data": |-
   Generic name-value data
 "geometry": |-
-  Geometry
+  Geometría
 "glossy": |-
   Glossy
 "go_to": |-
-  Go to %s
+  Ir a %s
 "go_to_website": |-
-  Go to Website
+  Visitar la Web
 "gravure": |-
   Gravure
 "gray_tone_response_curve": |-
   Gray tone response curve
 "grayscale": |-
-  grayscale
+  tonos de gris
 "green": |-
   Green
 "green_gamma": |-
@@ -1371,9 +1371,9 @@
 "hdr_mincll": |-
   Minimum content light level
 "header": |-
-  Display calibration and characterization powered by ArgyllCMS
+  Programa de calibrado y caracterización de pantallas basado en ArgyllCMS
 "help_support": |-
-  Help and support...
+  Ayuda y apoyo técnico...
 "host.invalid.lookup_failed": |-
   Invalid host (address lookup failed)
 "hpe_d65": |-
@@ -1431,7 +1431,7 @@
   
   If your instrument is a <font weight='bold'>colorimeter</font>, you should use a <font weight='bold'>measurement mode</font> or <font weight='bold'>correction</font> suitable for your display or display technology type. Note that some instruments (e.g. K-10, Spyder4/5/X) may offer a selection of measurement modes already tuned for specific display types.
 "info.display_instrument.warmup": |-
-  You should let the display <font weight='bold'>warm up</font> for at least <font weight='bold'>30 minutes</font> before commencing measurements. If you use your instrument in contact mode, it is a good idea to leave it on the display during that time as well.
+  Lo aconsejable es dejar que la pantalla <font weight='bold'>se caliente</font> durante al menos <font weight='bold'>30 minutos</font> antes de empezar a medir. Si utilizas el instrumento de medida con contacto es recomendable dejarlo posicionado mientras tanto.
 "info.display_tech": |-
   <font weight='bold'>LCD White LED</font> (WLED with normal color gamut and sRGB coverage up to 100%) is the most common LCD backlight technology. Displays in this category include most laptops, notebooks, allround/office and non-HDR gaming monitors from 2010 and newer as well as Apple iMac/MacBook from 2009 to mid 2015.
   
@@ -1453,7 +1453,7 @@
 "info.display_tech.linklabel.everymac.com": |-
   Find your iMac/MacBook/iPad and corresponding display technology at everymac.com
 "info.display_tech.show": |-
-  Show information about common display technologies
+  Ver más información sobre las tecnologías de pantalla más comunes
 "info.mr_settings": |-
   You can <font weight='bold'>verify the accuracy</font> of an ICC profile or 3D LUT via a measurement report that contains detailed statistics about the color errors of the measured patches.
   
@@ -1467,27 +1467,27 @@
 "infoframe.default_text": |-
   
 "infoframe.title": |-
-  Log
+  Registro
 "infoframe.toggle": |-
-  Show log window
+  Mostrar ventana de registro
 "initial": |-
   Initial
 "initializing_gui": |-
   Initializing GUI...
 "ink_jet_printer": |-
-  Ink jet printer
+  Impresora de injección de tinta
 "input_device_profile": |-
   Input device profile
 "input_table": |-
   Input Table
 "install_display_profile": |-
-  Install display device profile...
+  Instalar el perfil de pantalla...
 "install_local_system": |-
-  Install system-wide
+  Instalación general para todo el sistema
 "install_user": |-
-  Install for current user only
+  Solo instalar para el usuario actual
 "instrument": |-
-  Instrument
+  Instrumento de medición
 "instrument.calibrate": |-
   Place light-tight cap on the instrument (if applicable), or place on a dark, matte surface, or onto its calibration reference (if applicable), and press OK to self-calibrate the instrument.
 "instrument.calibrate.colormunki": |-
@@ -1497,7 +1497,7 @@
 "instrument.calibrate.spyderx": |-
   Place light-tight cap on the instrument, or place on a dark, matte surface, and press OK to self-calibrate the instrument.
 "instrument.calibrating": |-
-  Calibrating instrument...
+  Calibrando el instrumento...
 "instrument.colormunki": |-
   ColorMunki Design/Photo, i1Studio
 "instrument.connect": |-
@@ -1513,9 +1513,9 @@
 "instrument.reposition_sensor": |-
   The measurement failed because the instrument sensor is in the wrong position. Please correct the sensor position, then click OK to continue.
 "internal": |-
-  Internal
+  Interno
 "interval": |-
-  Interval
+  Intervalo
 "invert_selection": |-
   Invert selection
 "ipt": |-
@@ -1525,25 +1525,25 @@
 "is_illuminant": |-
   Is illuminant
 "is_linear": |-
-  Is linear
+  Es lineal
 "laptop.icc": |-
-  Laptop (Gamma 2.2)
+  Portátil (Gamma 2.2)
 "level": |-
-  Level
+  Nivel
 "libXss.so": |-
   X11 screen saver extension
 "library.not_found.warning": |-
-  The library “%s” (%s) was not found. Please make sure it is installed before proceeding.
+  No se ha encontrado la biblioteca «%s» (%s). Asegúrate de que esté instalada antes de nada.
 "license": |-
-  License
+  Licencia
 "license_info": |-
-  Licensed under the GPL
+  Publicado bajo la licencia GPL
 "linear": |-
-  linear
+  lineal
 "link.address.copy": |-
-  Copy link address
+  Copiar dirección URL
 "log.autoshow": |-
-  Show log window automatically
+  Mostrar la ventana de registro automáticamente
 "luminance": |-
   Luminance
 "lut_access": |-
@@ -1575,21 +1575,21 @@
 "make_and_model": |-
   Make and model
 "manufacturer": |-
-  Manufacturer
+  Fabricante
 "mastering_display_black_luminance": |-
   Mastering display black level
 "mastering_display_peak_luminance": |-
   Mastering display peak luminance
 "matrix": |-
-  Matrix
+  Matriz
 "matte": |-
-  Matte
+  Mate
 "max": |-
   Max
 "maximal": |-
   Maximal
 "measure": |-
-  Measure
+  Medir
 "measure.darken_background": |-
   Black background
 "measure.darken_background.warning": |-
@@ -1601,7 +1601,7 @@
 "measure.testchart": |-
   Measure testchart
 "measureframe.center": |-
-  Center
+  Centrar
 "measureframe.center.manual": |-
   Please place this window in the center of the screen
 "measureframe.info": |-
@@ -1668,9 +1668,9 @@
 "measurement_mode.raw": |-
   Raw
 "measurement_mode.refresh": |-
-  Refresh (generic)
+  Refresh (genérico)
 "measurement_report": |-
-  Measurement report...
+  Informe con resultados de medición...
 "measurement_report.update": |-
   Update measurement or uniformity report...
 "measurement_report_choose_chart": |-
@@ -1696,31 +1696,31 @@
 "media_white_point": |-
   Media white point
 "menu.about": |-
-  About...
+  Acerca de...
 "menu.file": |-
-  File
+  Archivo
 "menu.help": |-
-  ?
+  ¿?
 "menu.language": |-
-  Language
+  Idioma
 "menu.options": |-
-  Options
+  Opciones
 "menu.tools": |-
-  Tools
+  Herramientas
 "menuitem.quit": |-
-  Quit
+  Salir
 "menuitem.set_argyll_bin": |-
   Locate ArgyllCMS executables...
 "metadata": |-
-  Metadata
+  Metadatos
 "method": |-
-  Method
+  Método
 "min": |-
   Min
 "minimal": |-
   Minimal
 "model": |-
-  Model
+  Modelp
 "motion_picture_film_scanner": |-
   Motion picture film scanner
 "mswin.open_display_settings": |-
@@ -1730,27 +1730,27 @@
 "named_colors": |-
   Named colors
 "native": |-
-  Native
+  Nativo
 "negative": |-
-  Negative
+  Negativo
 "no": |-
   No
 "no_settings": |-
   The file does not contain settings.
 "none": |-
-  None
+  Ninguno
 "not_applicable": |-
   Not applicable
 "not_connected": |-
-  Not connected
+  Sin conectar
 "not_found": |-
-  “%s” was not found.
+  No se ha encontrado «%s».
 "not_now": |-
-  Not now
+  Ahora no
 "number_of_entries": |-
-  Number of entries
+  Número de elementos
 "number_of_entries_per_channel": |-
-  Number of entries per channel
+  Número de elementos por canal
 "observer": |-
   Observer
 "observer.1931_2": |-
@@ -1784,7 +1784,7 @@
 "offset_lithography": |-
   Offset lithography
 "ok": |-
-  OK
+  Aceptar
 "or": |-
   or
 "osd": |-
@@ -1800,17 +1800,17 @@
 "output_device_profile": |-
   Output device profile
 "output_levels": |-
-  Output levels
+  Niveles de salida
 "output_offset": |-
   Output offset
 "output_table": |-
   Output Table
 "overwrite": |-
-  Overwrite
+  Sobrescribir
 "panel.surface": |-
-  Panel surface
+  Superficie del panel
 "panel.type": |-
-  Panel type
+  Tipo de panel
 "passive_matrix_display": |-
   Passive matrix display
 "patch.layout.select": |-
@@ -1822,7 +1822,7 @@
 "patterngenerator.sync_lost": |-
   Lost sync with the pattern generator.
 "pause": |-
-  Pause
+  Pausar
 "pcs_illuminant_xyz": |-
   PCS illuminant XYZ
 "pcs_relative_cct": |-
@@ -1846,13 +1846,13 @@
 "photographic_paper_printer": |-
   Photographic paper printer
 "platform": |-
-  Platform
+  Plataforma
 "please_wait": |-
   Please wait...
 "port.invalid": |-
-  Invalid port: %s
+  El puerto no parece ser correcto: %s
 "positive": |-
-  Positive
+  Positivo
 "preferred_cmm": |-
   Preferred CMM
 "prepress.icc": |-
@@ -1866,57 +1866,57 @@
 "preset": |-
   Preset
 "preview": |-
-  Preview
+  Vista previa
 "profile": |-
-  Profile
+  Perfil
 "profile.advanced_gamap": |-
-  Advanced...
+  Avanzado...
 "profile.b2a.hires": |-
   Enhance effective resolution of colorimetric PCS-to-device table
 "profile.b2a.lowres.warning": |-
   The profile is seemingly missing high-quality PCS-to-device tables, which are essential for proper operation. Do you want to generate high-quality tables now? This will take a few minutes.
 "profile.b2a.smooth": |-
-  Smoothing
+  Suavizado
 "profile.choose": |-
-  Please choose a profile.
+  Primero elige un perfil.
 "profile.confirm_regeneration": |-
-  Do you want to regenerate the profile?
+  ¿Quieres regenerar este perfil?
 "profile.current": |-
-  Current profile
+  Perfil actual
 "profile.do_not_install": |-
-  Don't install profile
+  No instalar el perfil
 "profile.iccv4.unsupported": |-
   Version 4 ICC profiles are not supported.
 "profile.import.success": |-
   The profile has been imported. You may need to manually assign and activate it under “Color” system settings.
 "profile.info": |-
-  Profile information
+  Información del perfil
 "profile.info.show": |-
-  Show profile information
+  Mostrar información del perfil
 "profile.install": |-
-  Install profile
+  Instalar el perfil
 "profile.install.error": |-
-  The profile could not be installed/activated.
+  No se ha podido ni instalar ni activar el perfil.
 "profile.install.success": |-
-  The profile has been installed and activated.
+  El perfil se ha instalado y activado correctamente.
 "profile.install.warning": |-
-  The profile has been installed, but there may be problems.
+  Se ha instalado el perfil, pero puede que con algún problema.
 "profile.install_local_system": |-
-  Install profile as system default
+  Instalar el perfil en el equipo local
 "profile.install_network": |-
-  Install profile network-wide
+  Instalar el perfil en toda la red
 "profile.install_user": |-
-  Install profile for current user only
+  Instalar el perfil solo para el usuario actual
 "profile.invalid": |-
-  Invalid profile.
+  El perfil no parece compatible, puede estar dañado.
 "profile.load_error": |-
-  Display profile couldn't be loaded.
+  No se ha podido cargar el perfil de pantalla.
 "profile.load_on_login": |-
-  Load calibration on login
+  Cargar la calibración al iniciar sesión
 "profile.load_on_login.handled_by_os": |-
-  Let the operating system handle calibration loading (low precision and reliability)
+  Dejar que el sistema operativo administre la carga de la calibración (la precisión del color es peor y el proceso menos robusto)
 "profile.name": |-
-  Profile name
+  Nombre del perfil
 "profile.name.placeholders": |-
   You may use the following placeholders in the profile name:
   
@@ -1944,7 +1944,7 @@
 "profile.only_named_color": |-
   Only profiles of type “Named Color” can be used.
 "profile.quality": |-
-  Profile quality
+  Calidad del perfil
 "profile.quality.b2a.low": |-
   Low quality PCS-to-device tables
 "profile.quality.b2a.low.info": |-
@@ -1962,9 +1962,9 @@
 "profile.set_save_path": |-
   Choose save path...
 "profile.settings": |-
-  Profiling settings
+  Ajustes del perfil
 "profile.share": |-
-  Upload profile...
+  Subir perfil a Internet...
 "profile.share.avg_dE_too_high": |-
   The profile yields a too high delta E (actual = %s, threshold = %s).
 "profile.share.b2a_resolution_too_low": |-
@@ -2005,7 +2005,7 @@
 "profile.testchart_recommendation": |-
   For a higher quality profile, a testchart with more samples is recommended, but it will take more time to measure. Do you want to use the recommended testchart?
 "profile.type": |-
-  Profile type
+  Tipo de perfil
 "profile.type.gamma_matrix": |-
   Gamma + matrix
 "profile.type.lut.lab": |-
@@ -2025,7 +2025,7 @@
 "profile.unsupported": |-
   Unsupported profile type (%s) and/or colorspace (%s).
 "profile.update": |-
-  Update profile
+  Actualizar perfil
 "profile_associations": |-
   Profile associations...
 "profile_associations.changing_system_defaults.warning": |-
@@ -2033,11 +2033,11 @@
 "profile_associations.use_my_settings": |-
   Use my settings for this display device
 "profile_class": |-
-  Profile class
+  Clase de perfil
 "profile_connection_space_pcs": |-
   Profile connection space (PCS)
 "profile_loader": |-
-  Profile loader
+  Cargador del perfil
 "profile_loader.disable": |-
   Disable profile loader
 "profile_loader.exceptions.known_app.error": |-
@@ -2069,15 +2069,15 @@
 "projection_television": |-
   Projection television
 "projector": |-
-  Projector
+  Proyector
 "projector_mode_unavailable": |-
   Projector mode is only available with ArgyllCMS 1.1.0 Beta or newer.
 "quality.ultra.warning": |-
   Ultra quality should almost never be used, except to prove that it should almost never be used (long processing time!). Maybe choose high or medium quality instead.
 "readme": |-
-  ReadMe
+  Léeme
 "ready": |-
-  Ready.
+  Listo.
 "red": |-
   Red
 "red_gamma": |-
@@ -2101,17 +2101,17 @@
 "reflection_print_output_colorimetry": |-
   Reflection print output colorimetry
 "reflective": |-
-  Reflective
+  Reflectivo
 "reflective_scanner": |-
-  Reflective scanner
+  Escáner reflectivo
 "remaining_time": |-
-  Remaining time (ca.)
+  Tiempo restante (aprox.)
 "remove": |-
-  Remove
+  Borrar
 "rendering_intent": |-
   Rendering intent
 "report": |-
-  Report
+  Informe
 "report.calibrated": |-
   Report on calibrated display device
 "report.uncalibrated": |-
@@ -2131,9 +2131,9 @@
 "response.invalid.value": |-
   Invalid response from %s: Value of key “%s” does not match expected value “%s”: %s
 "restore_defaults": |-
-  Restore defaults
+  Volver a los ajustes iniciales
 "retry": |-
-  Retry
+  Reintentar
 "rgb.trc": |-
   RGB transfer function
 "rgb.trc.averaged": |-
@@ -2143,9 +2143,9 @@
 "saturation": |-
   Saturation
 "save": |-
-  Save
+  Guardar
 "save_as": |-
-  Save as...
+  Guardar como...
 "scene_appearance_estimates": |-
   Scene appearance estimates
 "scene_colorimetry_estimates": |-
@@ -2157,21 +2157,21 @@
 "scripting-client.detected-hosts": |-
   Detected scripting hosts:
 "select_all": |-
-  Select all
+  Seleccionar todo
 "self_check_report": |-
   Self check report...
 "serial_number": |-
-  Serial no.
+  Núm. de serie
 "set_as_default": |-
   Set as default
 "setting.keep_current": |-
   Keep current setting
 "settings.additional": |-
-  Additional settings
+  Ajustes extras
 "settings.basic": |-
-  Basic settings
+  Ajustes básicos
 "settings.new": |-
-  <Current>
+  <Ajuste actual>
 "settings_loaded": |-
   Calibration curves and the following calibration settings have been loaded: %s. Other calibration options have been restored to default and profiling options have not been changed.
 "settings_loaded.cal": |-
@@ -2211,11 +2211,11 @@
 "ssl.handshake_failure": |-
   Handshake failure. A secure connection could not be established.
 "startup": |-
-  Starting up...
+  Arrancando...
 "startup_sound.enable": |-
-  Enable startup sound
+  Con música al iniciar
 "success": |-
-  ...ok.
+  ...bien.
 "surround_xyz": |-
   Surround XYZ
 "synthicc.create": |-
@@ -2233,9 +2233,9 @@
 "tc.adaption": |-
   Adaption
 "tc.algo": |-
-  Distribution
+  Distribución
 "tc.angle": |-
-  Angle
+  Ángulo
 "tc.black": |-
   Black patches
 "tc.dark_emphasis": |-
@@ -2287,7 +2287,7 @@
 "tc.white": |-
   White patches
 "technology": |-
-  Technology
+  Tecnología
 "tempdir_should_still_contain_files": |-
   Created files should still be in the temporary directory “%s”.
 "testchart.add_saturation_sweeps": |-
@@ -2433,7 +2433,7 @@
 "udev_hotplug.unavailable": |-
   Neither udev nor hotplug detected.
 "unassigned": |-
-  Unassigned
+  Sin asignar
 "uninstall": |-
   Uninstall
 "uninstall_display_profile": |-
@@ -2443,7 +2443,7 @@
 "unmodified": |-
   Unmodified
 "unnamed": |-
-  Unnamed
+  Sin nombre
 "unspecified": |-
   Unspecified
 "update_check": |-
@@ -2455,29 +2455,29 @@
 "update_check.new_version": |-
   An update is available: %s
 "update_check.onstartup": |-
-  Check for application update on startup
+  Buscar actualizaciones al iniciar el programa
 "update_check.uptodate": |-
-  %s is up-to-date.
+  Tienes la última version de %s.
 "update_now": |-
-  Update now
+  Actualizar ahora
 "upload": |-
-  Upload
+  Subir
 "use_fancy_progress": |-
-  Use fancy progress dialog
+  Mostrar animaciones y florituras
 "use_separate_lut_access": |-
   Use separate video card gamma table access
 "use_simulation_profile_as_output": |-
   Use simulation profile as display profile
 "vcgt": |-
-  Calibration curves
+  Curvas de calibración
 "vcgt.mismatch": |-
   The video card gamma tables for display %s do not match the desired state.
 "vcgt.unknown_format": |-
   Unknown video card gamma table format in profile “%s”.
 "verification": |-
-  Verification
+  Verificar
 "verification.settings": |-
-  Verification settings
+  Ajustes de verificado
 "verify.ti1": |-
   Verification testchart
 "verify_extended.ti1": |-
@@ -2539,7 +2539,7 @@
 "video_resolve_ST2084_clip.icc": |-
   Video 3D LUT for Resolve HDR (D65, Rec. 2020 / SMPTE 2084)
 "view.3d": |-
-  3D view
+  Vista 3D
 "viewing_conditions": |-
   Viewing conditions
 "viewing_conditions_description": |-
@@ -2585,27 +2585,27 @@
 "warning.system_file": |-
   Warning: “%s” is a system file. Do you really want to continue?
 "webserver.waiting": |-
-  Webserver waiting at
+  El servidor Web está esperando
 "welcome": |-
-  Welcome!
+  Bienvenido
 "welcome_back": |-
-  Welcome back!
+  Te damos la bienvenida
 "white": |-
-  White
+  Blanco
 "whitepoint": |-
-  Whitepoint
+  Punto blanco
 "whitepoint.colortemp": |-
-  Color temperature
+  Temperatura del color
 "whitepoint.colortemp.locus.blackbody": |-
-  Blackbody
+  Cuerpo negro
 "whitepoint.colortemp.locus.curve": |-
-  Color temperature curve
+  Curva de la temperatura del color
 "whitepoint.colortemp.locus.daylight": |-
-  Daylight
+  Luz del día
 "whitepoint.set": |-
   Do you also want to set the whitepoint to the measured value?
 "whitepoint.simulate": |-
-  Simulate whitepoint
+  Simular punto blanco
 "whitepoint.simulate.relative": |-
   Relative to display profile whitepoint
 "whitepoint.visual_editor": |-
@@ -2613,15 +2613,15 @@
 "whitepoint.visual_editor.display_changed.warning": |-
   Attention: The display configuration has changed and the visual whitepoint editor may no longer be able to correctly restore display profiles. Please check display profile associations carefully after closing the editor and restart DisplayCAL.
 "whitepoint.xy": |-
-  Chromaticity coordinates
+  Coordenadas de cromaticidad
 "window.title": |-
   DisplayCAL
 "windows.version.unsupported": |-
-  This version of Windows is not supported.
+  El programa no funciona en esta versión de Windows.
 "windows_only": |-
-  Windows only
+  Solo en Windows
 "working_dir": |-
-  Working directory:
+  Carpeta actual:
 "xyz_scaling": |-
   XYZ scaling (“wrong von Kries”)
 "yellow": |-
@@ -2631,4 +2631,4 @@
 "yellow_xyz": |-
   Yellow XYZ
 "yes": |-
-  Yes
+  Sí
