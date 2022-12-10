@@ -266,31 +266,31 @@
 "as_measured": |-
   As measured
 "audio.lib": |-
-  Audio module: %s
+  Módulo de sonido: %s
 "auth": |-
-  Authentification
+  Autenticación
 "auth.failed": |-
-  Authentification failed.
+  La autenticación ha fallado.
 "auto": |-
   Auto
 "auto_optimized": |-
-  Auto-optimized
+  Autoptimizado
 "autostart_remove_old": |-
-  Removing old autostart entry
+  Borrando la entrada de auto-arranque antigua
 "backing_xyz": |-
   Backing XYZ
 "backlight": |-
-  Backlight
+  Retroiluminación
 "bitdepth": |-
   Profundidad de bits
 "black": |-
-  Black
+  Negro
 "black_lab": |-
   Black L*a*b*
 "black_point": |-
-  Black point
+  Punto negro
 "black_point_compensation": |-
-  Black point compensation
+  Compensación de punto negro
 "black_point_compensation.3dlut.warning": |-
   When creating a 3D LUT, the black point compensation profiling setting should be turned off, because it affects the function of the tone curve adjustment. Would you like to turn off black point compensation?
 "black_point_compensation.info": |-
@@ -322,13 +322,13 @@
 "brightness": |-
   Brightness
 "browse": |-
-  Browse...
+  Examinar...
 "bs": |-
   Bianco & Schettini
 "bs_pc": |-
   Bianco & Schettini with positivity constraint
 "bug_report": |-
-  Report a bug...
+  Informar de un problema...
 "button.calibrate": |-
   Solo calibrar
 "button.calibrate_and_profile": |-
@@ -376,7 +376,7 @@
 "calibration.file.invalid": |-
   The chosen settings file is invalid.
 "calibration.file.none": |-
-  <None>
+  <Vacío>
 "calibration.incomplete": |-
   La calibración todavía no ha terminado.
 "calibration.interactive_display_adjustment": |-
@@ -454,9 +454,9 @@
 "calibration.settings": |-
   Ajustes de calibración
 "calibration.show_actual_lut": |-
-  Show calibration curves from video card
+  Ver curvas de calibración de tarjeta gráfica
 "calibration.show_lut": |-
-  Show curves
+  Ver curvas
 "calibration.skip": |-
   Continue on to profiling
 "calibration.speed": |-
@@ -630,11 +630,11 @@
 "color": |-
   Color
 "color_look_up_table": |-
-  Color Look Up Table
+  Tabla de correspondencia de color
 "color_model": |-
   Modelo de color
 "color_space_conversion_profile": |-
-  Color space Conversion profile
+  Perfil de conversión del espacio de color
 "colorant_order": |-
   Colorant order
 "colorants_pcs_relative": |-
@@ -644,16 +644,16 @@
 "colorimeter_correction.create.details": |-
   Please check the fields below and change them when necessary. The description should also contain important details (e.g. specific display settings, non-default CIE observer or the like).
 "colorimeter_correction.create.failure": |-
-  Correction creation failed.
+  No se pudo crear la corrección.
 "colorimeter_correction.create.info": |-
   To create a colorimeter correction, you first need to measure the required test colors with a spectrometer, and in case you want to create a correction matrix instead of a spectral correction, also with the colorimeter.
   Alternatively you can also use existing measurements by choosing “Browse...”.
 "colorimeter_correction.create.success": |-
-  Correction successfully created.
+  Se ha creado correctamente la corrección.
 "colorimeter_correction.create.warning": |-
   Make sure to measure your display device in its native gamut and do not artificially restrict it (via emulation modes or similar means) when creating a colorimeter correction.
 "colorimeter_correction.file.none": |-
-  None
+  Vacío
 "colorimeter_correction.import": |-
   Import colorimeter corrections from other display profiling software...
 "colorimeter_correction.import.choose": |-
@@ -717,7 +717,7 @@
 "connected.to.at": |-
   Conectado con %s en %s:%s
 "connecting.to": |-
-  Connecting to %s:%s...
+  Conectando a %s:%s...
 "connection.broken": |-
   Se ha desconectado
 "connection.established": |-
@@ -753,7 +753,7 @@
 "custom": |-
   Personalizado
 "cyan": |-
-  Cyan
+  Cian
 "d3-e4-s2-g28-m0-b0-f0.ti1": |-
   Small testchart for matrix profiles
 "d3-e4-s3-g52-m3-b0-f0.ti1": |-
@@ -831,55 +831,55 @@
 "dialog.argyll.notfound.choice": |-
   ArgyllCMS, the color engine that is needed to run DisplayCAL, doesn't seem to be installed on this computer. Do you want to automatically download it or browse for it manually?
 "dialog.cal_info": |-
-  The calibration file “%s” will be used. Do you want to continue?
+  Se utilizará el archivo de calibración «%s». ¿Seguro que quieres continuar?
 "dialog.confirm_cancel": |-
-  Do you really want to cancel?
+  ¿Seguro que quieres cancelar?
 "dialog.confirm_delete": |-
-  Do you really want to delete the selected file(s)?
+  ¿Seguro que quieres borrar los archivos seleccionados?
 "dialog.confirm_overwrite": |-
-  The file “%s” already exists. Do you want to overwrite it?
+  El archivo «%s» ya existe. ¿Seguro que quieres sobrescribirlo?
 "dialog.confirm_uninstall": |-
-  Do you really want to uninstall the selected file(s)?
+  ¿Seguro que quieres desinstalar los archivos seleccionados?
 "dialog.current_cal_warning": |-
-  The current calibration curves will be used. Do you want to continue?
+  Se utilizarán las curvas de calibración actuales. ¿Seguro que quieres continuar?
 "dialog.do_not_show_again": |-
-  Do not show this message again
+  No volver a mostrar el mensaje
 "dialog.enter_password": |-
-  Please enter your password.
+  Escribe tu contraseña.
 "dialog.install_profile": |-
-  Do you want to install the profile “%s” and make it the default for display “%s”?
+  ¿Quieres instalar el perfil «%s» y convertirlo en el predeterminado para la pantalla «%s»?
 "dialog.linear_cal_info": |-
-  Linear calibration curves will be used. Do you want to continue?
+  Linear calibration curves will be used. ¿Seguro que quieres continuar?
 "dialog.load_cal": |-
-  Load settings
+  Cargar ajustes
 "dialog.select_argyll_version": |-
-  Version %s of ArgyllCMS was found. The currently selected version is %s. Do you want to use the newer version?
+  Se ha encontrado la versión %s de ArgyllCMS. La versión seleccionada es la %s. ¿Quieres usar la versión más nueva?
 "dialog.set_argyll_bin": |-
-  Please locate the directory where the ArgyllCMS executables reside.
+  Es necesario proporcionar la carpeta donde residen los ejecutables de ArgyllCMS.
 "dialog.set_profile_save_path": |-
   Create profile directory “%s” here:
 "dialog.set_testchart": |-
-  Choose testchart file
+  Elegir archivo con las muestras de color
 "dialog.ti3_no_cal_info": |-
-  The measurement data does not contain calibration curves. Do you really want to continue?
+  Los datos de medición no contienen curvas de calibración. ¿Seguro que quieres continuar?
 "digital_camera": |-
-  Digital camera
+  Cámara digital
 "digital_cinema_projector": |-
-  Digital cinema projector
+  Proyector de cine digital
 "digital_motion_picture_camera": |-
-  Digital motion picture camera
+  Cámara de cine digital
 "direction.backward": |-
-  PCS → B2A → device
+  PCS → B2A → dispositivo
 "direction.backward.inverted": |-
-  PCS ← B2A ← device
+  PCS ← B2A ← dispositivo
 "direction.forward": |-
-  Device → A2B → PCS
+  Dispositivo → A2B → PCS
 "direction.forward.inverted": |-
-  Device ← A2B ← PCS
+  Dispositivo ← A2B ← PCS
 "directory": |-
   Carpeta
 "disconnected.from": |-
-  Disconnected from %s:%s
+  Desconectado de %s:%s
 "display": |-
   Pantalla
 "display-instrument": |-
@@ -893,29 +893,29 @@
   
   If neither your display nor graphics driver has a range setting, you can also fix the output levels using the video card gamma table by clicking “Continue”, but note that this is the least preferable solution.
 "display.manufacturer": |-
-  Display device manufacturer
+  Fabricante de la pantalla
 "display.output": |-
   Salida nº 
 "display.primary": |-
   (Principal)
 "display.properties": |-
-  Display device properties
+  Propiedades de la pantalla
 "display.reset.info": |-
-  Please reset the display device to factory defaults, then adjust its brightness to a comfortable level.
+  Se aconseja devolver la pantalla a los ajustes de fábrica y luego ajustar el brillo, dejándolo a un nivel lo más cómodo posible.
 "display.settings": |-
-  Display device settings
+  Ajustes de pantalla
 "display.tech": |-
   Tecnologías de pantalla
 "display.tech.CRT": |-
   CRT
 "display.tech.DLP Projector": |-
-  DLP Projector
+  Proyector DLP
 "display.tech.DLP Projector RGB Filter Wheel": |-
-  DLP Projector RGB Filter Wheel
+  Proyector DLP con rueda de colores RGB
 "display.tech.DLP Projector RGBCMY Filter Wheel": |-
-  DLP Projector RGBCMY Filter Wheel
+  Proyector DLP con rueda de colores RGBCMY
 "display.tech.DPL Projector RGBW Filter Wheel": |-
-  DLP Projector RGBW Filter Wheel
+  Proyector DLP con rueda de colores RGBW
 "display.tech.LCD": |-
   LCD
 "display.tech.LCD CCFL": |-
@@ -2533,7 +2533,7 @@
 "video_madVR_ST2084.icc": |-
   Video 3D LUT for madVR HDR (D65, Rec. 2020 / SMPTE 2084 / BT.2390)
 "video_monitor": |-
-  Video monitor
+  Monitor de vídeo
 "video_resolve.icc": |-
   Video 3D LUT for Resolve (D65, Rec. 709 / Rec. 1886)
 "video_resolve_ST2084_clip.icc": |-
@@ -2547,7 +2547,7 @@
 "vrml_to_x3d_converter": |-
   VRML to X3D converter
 "warning": |-
-  Warning
+  Advertencia
 "warning.already_exists": |-
   The file “%s” already exists at the chosen location and will be overwritten. Do you want to continue?
 "warning.autostart_system": |-
@@ -2585,9 +2585,9 @@
 "warning.system_file": |-
   Warning: “%s” is a system file. Do you really want to continue?
 "webserver.waiting": |-
-  El servidor Web está esperando
+  El servidor Web está en espera
 "welcome": |-
-  Bienvenido
+  Te damos la bienvenida
 "welcome_back": |-
   Te damos la bienvenida
 "white": |-
