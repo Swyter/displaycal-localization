@@ -11,19 +11,19 @@
 "3dlut.1dlut.videolut.nonlinear": |-
   The display device's video card gamma tables 1D LUT calibration is non-linear, but the 3D LUT contains applied 1D LUT calibration. Make sure to manually reset the video card gamma tables to linear before using the 3D LUT, or create a 3D LUT without calibration applied (to do the latter, enable “Show advanced options” in the “Options” menu and disable “Apply calibration (vcgt)” as well as “Create 3D LUT after profiling” in the 3D LUT settings, then create a new 3D LUT).
 "3dlut.bitdepth.input": |-
-  3D LUT input bitdepth
+  Profundidad de bits de entrada para la LUT 3D
 "3dlut.bitdepth.output": |-
-  3D LUT output bitdepth
+  Profundidad de bits de salida para la LUT 3D
 "3dlut.confirm_relcol_rendering_intent": |-
   Do you want the 3D LUT to use the measured white point as well (3D LUT rendering intent will be set to relative colorimetric)?
 "3dlut.content.colorspace": |-
-  Content colorspace
+  Espacio de colores del contenido
 "3dlut.create": |-
-  Create 3D LUT...
+  Crear una LUT 3D...
 "3dlut.create_after_profiling": |-
-  Create 3D LUT after profiling
+  Crear una LUT 3D tras perfilar
 "3dlut.enable": |-
-  Enable 3D LUT
+  Activar LUT 3D
 "3dlut.encoding.input": |-
   Input encoding
 "3dlut.encoding.output": |-
@@ -274,7 +274,7 @@
 "auto": |-
   Auto
 "auto_optimized": |-
-  Autoptimizado
+  Optimizado automáticamente
 "autostart_remove_old": |-
   Borrando la entrada de auto-arranque antigua
 "backing_xyz": |-
@@ -883,7 +883,7 @@
 "display": |-
   Pantalla
 "display-instrument": |-
-  Pantalla e instrumento
+  Pantallas e instrumentos
 "display.connection.type": |-
   Conexión
 "display.levels_issue_detected": |-
@@ -1062,9 +1062,9 @@
 "entries": |-
   Entries
 "enumerate_ports.auto": |-
-  Automatically detect instruments
+  Detectar instrumentos de forma automática
 "enumerating_displays_and_comports": |-
-  Enumerating display devices and communication ports...
+  Buscando pantallas y puertos de comunicación...
 "environment": |-
   Entorno
 "error": |-
@@ -1250,14 +1250,14 @@
 "format.select": |-
   Please select the desired format.
 "fullscreen.message": |-
-  Fullscreen mode activated.
-  Press ESC to leave fullscreen.
+  Se ha activado el modo de pantalla completa.
+  Presiona ESC para volver al modo ventana.
 "fullscreen.osx.warning": |-
   If you enter fullscreen mode using the zoom button in the window title bar, please press CMD + TAB to switch back to normal mode after the window has been closed. Alternatively, you can go fullscreen by double-clicking the title bar or holding the OPTION key while clicking the zoom button.
 "gamap.default_intent": |-
   Propósito de conversión predet.
 "gamap.intents.a": |-
-  Absolute colorimetric
+  Colorimétrica absoluta
 "gamap.intents.aa": |-
   Absolute appearance
 "gamap.intents.aw": |-
@@ -1335,13 +1335,13 @@
 "geometry": |-
   Geometría
 "glossy": |-
-  Glossy
+  Brillante
 "go_to": |-
   Ir a %s
 "go_to_website": |-
   Visitar la Web
 "gravure": |-
-  Gravure
+  Huecograbado
 "gray_tone_response_curve": |-
   Gray tone response curve
 "grayscale": |-
@@ -1381,7 +1381,7 @@
 "hpe_e": |-
   Hunt-Pointer-Estevez (HPE), illuminant E
 "hue": |-
-  Hue
+  Tonalidad
 "icc_absolute_colorimetric": |-
   ICC-absolute colorimetric
 "icc_version": |-
@@ -1688,13 +1688,13 @@
 "measuring.characterization": |-
   Measuring color swatches for characterization...
 "media_attributes": |-
-  Atributos del medio
+  Atributos físicos
 "media_black_point": |-
-  Punto negro del medio
+  Punto negro físico
 "media_relative_colorimetric": |-
   Media-relative colorimetric
 "media_white_point": |-
-  Punto blanco del medio
+  Punto blanco físico
 "menu.about": |-
   Acerca de...
 "menu.file": |-
@@ -1840,7 +1840,7 @@
 "perceptual": |-
   Perceptual
 "photo.icc": |-
-  Photo (D50, Gamma 2.2)
+  Foto (D50, Gamma 2.2)
 "photo_imagesetter": |-
   Photo imagesetter
 "photographic_paper_printer": |-
@@ -2061,7 +2061,7 @@
   Calibration state was (re)applied %i time(s) so far today.
   Right-click icon for menu.
 "profiling": |-
-  Profiling
+  Perfilado
 "profiling.complete": |-
   Profiling complete!
 "profiling.incomplete": |-
@@ -2555,7 +2555,7 @@
 "warning.autostart_user": |-
   The user-specific autostart directory could not be determined.
 "warning.discard_changes": |-
-  Do you really want to discard the changes to the current settings?
+  ¿Seguro que quieres descartar los cambios a los ajustes actuales?
 "warning.gamap.out_viewcond.nondisplay": |-
   Destination viewing condition “%s” is not a display viewing condition. Do you still want to use it?
 "warning.input_value_clipping": |-
