@@ -89,15 +89,15 @@
 "3dlut.holder.out_of_memory": |-
   %s is out of 3D LUT storage space (at least %i KB required). Please delete a few 3D LUTs from %s to make space for new ones. See your %s's documentation for more information.
 "3dlut.input.colorspace": |-
-  Source colorspace
+  Espacio de colores original
 "3dlut.input.profile": |-
-  Source profile
+  Perfil original
 "3dlut.install": |-
-  Install 3D LUT
+  Instalar LUT 3D
 "3dlut.install.failure": |-
-  3D LUT installation failed (unknown error).
+  La LUT 3D no se ha podido instalar (error desconocido).
 "3dlut.install.success": |-
-  3D LUT installation successful!
+  La LUT 3D se ha instalado correctamente.
 "3dlut.install.unsupported": |-
   3D LUT installation is not supported for the selected 3D LUT format.
 "3dlut.madvr.colorspace.unsupported": |-
@@ -105,11 +105,11 @@
 "3dlut.save_as": |-
   Guardar LUT 3D como...
 "3dlut.settings": |-
-  3D LUT settings
+  Ajustes de la LUT 3D
 "3dlut.size": |-
-  3D LUT resolution
+  Resolución de la LUT 3D
 "3dlut.tab.enable": |-
-  Enable 3D LUT tab
+  Activar la pestaña de LUT 3D
 "3dlut.use_abstract_profile": |-
   Abstract (“Look”) profile
 "CMP_Digital_Target-3.cie": |-
@@ -151,7 +151,7 @@
 "[rgb]TRC": |-
   Tone response curves
 "aborted": |-
-  ...aborted.
+  ...cancelado.
 "aborting": |-
   Aborting, please wait (this may take a few seconds)...
 "abstract_profile": |-
@@ -161,7 +161,7 @@
 "adaptive_mode_unavailable": |-
   Adaptive mode is only available with ArgyllCMS 1.1.0 RC3 or newer.
 "add": |-
-  Add...
+  Añadir...
 "adjust_rolloff": |-
   Adjust roll-off
 "advanced": |-
@@ -201,7 +201,7 @@
 "app.listening": |-
   Setting up scripting host at %s:%s
 "app.otherinstance": |-
-  %s ya está en ejecución.
+  Ya hay otra instancia de %s en ejecución.
 "app.otherinstance.notified": |-
   Already running instance has been notified.
 "apply": |-
@@ -209,9 +209,9 @@
 "apply_black_output_offset": |-
   Apply black output offset (100%)
 "apply_cal": |-
-  Apply calibration (vcgt)
+  Aplicar calibración (vcgt)
 "apply_cal.error": |-
-  Calibration could not be applied.
+  No se pudo aplicar la calibración.
 "archive.create": |-
   Crear archivo comprimido...
 "archive.import": |-
@@ -262,7 +262,7 @@
 "argyll.malformed_ccxx": |-
   ArgyllCMS cannot function as long as malformed colorimeter correction files are present. They will be automatically moved to the trash.
 "argyll.util.not_found": |-
-  ArgyllCMS “%s” executable not found!
+  No se ha encontrado el ejecutable «%s» de ArgyllCMS
 "as_measured": |-
   As measured
 "audio.lib": |-
@@ -376,7 +376,7 @@
 "calibration.file.invalid": |-
   The chosen settings file is invalid.
 "calibration.file.none": |-
-  <Vacío>
+  <Ninguna>
 "calibration.incomplete": |-
   La calibración todavía no ha terminado.
 "calibration.interactive_display_adjustment": |-
@@ -392,9 +392,9 @@
 "calibration.interactive_display_adjustment.generic_hint.singular": |-
   A good match is obtained if the bar can be brought to the marked position in the center.
 "calibration.interactive_display_adjustment.start": |-
-  Start measurement
+  Comenzar medición
 "calibration.interactive_display_adjustment.stop": |-
-  Stop measurement
+  Deneter medición
 "calibration.interactive_display_adjustment.white_level.crt": |-
   Select “Start measurement” and adjust your display's contrast and/or RGB gain controls to match the desired level.
 "calibration.interactive_display_adjustment.white_level.lcd": |-
@@ -402,7 +402,7 @@
 "calibration.interactive_display_adjustment.white_point": |-
   Select “Start measurement” and adjust your display's color temperature and/or RGB gain controls to match the desired white point.
 "calibration.load": |-
-  Load settings...
+  Cargar ajustes...
 "calibration.load.handled_by_os": |-
   Calibration loading is handled by the operating system.
 "calibration.load_error": |-
@@ -701,13 +701,13 @@
 "colorspace": |-
   Espacio de colores
 "colorspace.show_outline": |-
-  Show outline
+  Mostrar límites visibles
 "commandline": |-
   Línea de órdenes:
 "commands": |-
   Órdenes
 "comparison_profile": |-
-  Comparison profile
+  Perfil de comparación
 "comport_detected": |-
   A change in the instrument/port configuration has been detected.
 "compression.gzip": |-
@@ -1180,9 +1180,9 @@
 "file.invalid": |-
   El archivo no parece ser correcto.
 "file.missing": |-
-  The file “%s” does not exist.
+  El archivo «%s» no existe.
 "file.notfile": |-
-  “%s” is not a file.
+  «%s» no parece ser un archivo.
 "file.select": |-
   Elegir un archivo
 "filename": |-
@@ -1194,9 +1194,9 @@
 "filetype.any": |-
   Cualquier tipo de archivo
 "filetype.cal": |-
-  Calibration files (*.cal)
+  Archivos de calibración (*.cal)
 "filetype.cal_icc": |-
-  Calibration and profile files (*.cal;*.icc;*.icm)
+  Archivos de calibración y perfiles (*.cal;*.icc;*.icm)
 "filetype.ccmx": |-
   Correction matrices/Calibration spectral samples (*.ccmx;*.ccss)
 "filetype.html": |-
@@ -1387,17 +1387,17 @@
 "icc_version": |-
   Versión de ICC
 "if_available": |-
-  if available
+  si está disponible
 "illuminant": |-
-  Illuminant
+  Iluminante
 "illuminant_relative_cct": |-
-  Illuminant-relative CCT
+  CCT relativo del iluminante
 "illuminant_relative_lab": |-
-  Illuminant-relative L*a*b*
+  L*a*b* relativo del iluminante
 "illuminant_relative_xyz": |-
-  Illuminant-relative XYZ
+  XYZ relativo del iluminante
 "illuminant_xyz": |-
-  Illuminant XYZ
+  XYZ del iluminante
 "illumination": |-
   Illumination
 "in": |-
@@ -1523,7 +1523,7 @@
 "is_embedded": |-
   Es de tipo incrustado
 "is_illuminant": |-
-  Is illuminant
+  Es un iluminante
 "is_linear": |-
   Es lineal
 "laptop.icc": |-
@@ -1531,7 +1531,7 @@
 "level": |-
   Nivel
 "libXss.so": |-
-  X11 screen saver extension
+  Extensión de salvapantallas de X11
 "library.not_found.warning": |-
   No se ha encontrado la biblioteca «%s» (%s). Asegúrate de que esté instalada antes de nada.
 "license": |-
@@ -1545,7 +1545,7 @@
 "log.autoshow": |-
   Mostrar la ventana de registro automáticamente
 "luminance": |-
-  Luminance
+  Luminancia
 "lut_access": |-
   Video card gamma table access
 "lut_access.unsupported": |-
@@ -1608,17 +1608,17 @@
   Move the measurement window to the desired screen position and resize if needed. Approximately the whole window area will be used to display measurement patches, the circle is just there as a guide to help you place your measurement device.
   Place the measurement device on the window and click on “Start measurement”. To cancel and return to the main window, close the measurement window.
 "measureframe.measurebutton": |-
-  Start measurement
+  Comenzar la medición
 "measureframe.title": |-
-  Measurement area
+  Área de medición
 "measureframe.zoomin": |-
-  Enlarge
+  Ampliar
 "measureframe.zoommax": |-
-  Maximize/Restore
+  Maximizar/Restaurar
 "measureframe.zoomnormal": |-
-  Normal size
+  Tamaño normal
 "measureframe.zoomout": |-
-  Shrink
+  Reducir
 "measurement.play_sound": |-
   Acoustic feedback on continuous measurements
 "measurement.untethered": |-
@@ -1642,7 +1642,7 @@
 "measurement_mode.dlp": |-
   DLP
 "measurement_mode.factory": |-
-  Factory calibration
+  Calibración de fábrica
 "measurement_mode.generic": |-
   Genérico
 "measurement_mode.highres": |-
@@ -1710,7 +1710,7 @@
 "menuitem.quit": |-
   Salir
 "menuitem.set_argyll_bin": |-
-  Locate ArgyllCMS executables...
+  Ubicar los ejecutables de ArgyllCMS...
 "metadata": |-
   Metadatos
 "method": |-
@@ -1724,7 +1724,7 @@
 "motion_picture_film_scanner": |-
   Motion picture film scanner
 "mswin.open_display_settings": |-
-  Open Windows display settings...
+  Abrir los ajustes de pantalla de Windows...
 "named_color_profile": |-
   Named color profile
 "named_colors": |-
@@ -1824,7 +1824,7 @@
 "pause": |-
   Pausar
 "pcs_illuminant_xyz": |-
-  PCS illuminant XYZ
+  XYZ del iluminante PCS
 "pcs_relative_cct": |-
   PCS-relative CCT
 "pcs_relative_lab": |-
@@ -2027,25 +2027,25 @@
 "profile.update": |-
   Actualizar perfil
 "profile_associations": |-
-  Profile associations...
+  Asociar perfiles con pantallas...
 "profile_associations.changing_system_defaults.warning": |-
-  You are currently changing system defaults
+  Vas a cambiar los ajustes originales del sistema
 "profile_associations.use_my_settings": |-
-  Use my settings for this display device
+  Utilizar mis ajustes con esta pantalla
 "profile_class": |-
   Tipo de perfil
 "profile_connection_space_pcs": |-
   Profile connection space (PCS)
 "profile_loader": |-
-  Cargador del perfil
+  Cargaperfiles
 "profile_loader.disable": |-
-  Disable profile loader
+  Desactivar el cargaperfiles
 "profile_loader.exceptions.known_app.error": |-
   The profile loader disables itself automatically while %s is running. You cannot override this behavior.
 "profile_loader.exit_warning": |-
   Do you really want to quit the profile loader? Calibration will no longer be automatically reloaded if you change the display configuration!
 "profile_loader.fix_profile_associations": |-
-  Automatically fix profile associations
+  Arreglar problemas de asociación de forma automática
 "profile_loader.fix_profile_associations_warning": |-
   As long as the profile loader is running, it can take care of profile associations when you change the display configuration.
   
@@ -2163,7 +2163,7 @@
 "serial_number": |-
   Núm. de serie
 "set_as_default": |-
-  Set as default
+  Poner como principal
 "setting.keep_current": |-
   Keep current setting
 "settings.additional": |-
@@ -2187,17 +2187,17 @@
 "sharp": |-
   Sharp
 "show_advanced_options": |-
-  Show advanced options
+  Mostrar opciones avanzadas
 "show_notifications": |-
-  Show notifications
+  Mostrar notificaciones
 "silkscreen": |-
   Silkscreen
 "simulation_profile": |-
-  Simulation profile
+  Perfil simulado
 "size": |-
   Tamaño
 "skip_legacy_serial_ports": |-
-  Skip legacy serial ports
+  Saltarse la comprobación de puertos de serie antiguos
 "softproof.icc": |-
   Softproof (5800K, 160 cd/m², L*)
 "spectral": |-
@@ -2219,7 +2219,7 @@
 "surround_xyz": |-
   Surround XYZ
 "synthicc.create": |-
-  Create synthetic ICC profile...
+  Crear perfil ICC sintético...
 "target": |-
   Target
 "tc.3d": |-
@@ -2303,7 +2303,7 @@
 "testchart.create": |-
   Create testchart
 "testchart.discard": |-
-  Discard
+  Descartar
 "testchart.dont_select": |-
   Don't select
 "testchart.edit": |-
@@ -2315,15 +2315,15 @@
 "testchart.info": |-
   Amount of patches in selected testchart
 "testchart.interleave": |-
-  Interleave
+  Entrelazar
 "testchart.maximize_RGB_difference": |-
-  Maximize RGB difference
+  Maximizar la diferencia RGB
 "testchart.maximize_lightness_difference": |-
   Maximize lightness difference
 "testchart.maximize_rec709_luma_difference": |-
   Maximize luma difference
 "testchart.optimize_display_response_delay": |-
-  Minimize display response delay
+  Minimizar el retardo en el tiempo de respuesta de la pantalla
 "testchart.patch_sequence": |-
   Patch sequence
 "testchart.patches_amount": |-
@@ -2333,7 +2333,7 @@
 "testchart.save_or_discard": |-
   The testchart has not been saved.
 "testchart.select": |-
-  Select
+  Elegir
 "testchart.separate_fixed_points": |-
   Please choose the patches to add in a separate step.
 "testchart.set": |-
@@ -2379,23 +2379,23 @@
 "thermal_wax_printer": |-
   Thermal wax printer
 "tone_values": |-
-  Tone values
+  Valores tonales
 "transfer_function": |-
   Transfer function
 "translations": |-
-  Translations
+  Traducciones
 "transparency": |-
-  Transparency
+  Transparencia
 "trashcan.linux": |-
-  trash
+  papelera
 "trashcan.mac": |-
-  trash
+  papelera
 "trashcan.windows": |-
-  recycle bin
+  papelera de reciclaje
 "tray_icon_animation": |-
-  Animate tray icon
+  Animar icono de la bandeja del sistema
 "trc": |-
-  Tone curve
+  Curva tonal
 "trc.dicom": |-
   DICOM
 "trc.gamma": |-
@@ -2421,39 +2421,39 @@
 "trc.srgb": |-
   sRGB
 "trc.type.absolute": |-
-  Absolute
+  Absoluto
 "trc.type.relative": |-
-  Relative
+  Relativo
 "turn_off": |-
-  Turn off
+  Apagar
 "turn_on": |-
-  Turn on
+  Encender
 "type": |-
-  Type
+  Tipo
 "udev_hotplug.unavailable": |-
-  Neither udev nor hotplug detected.
+  Ni «udev» ni «hotplug» parecen estar disponibles.
 "unassigned": |-
   Sin asignar
 "uninstall": |-
-  Uninstall
+  Desinstalar
 "uninstall_display_profile": |-
-  Uninstall display device profile...
+  Desinstalar el perfil de pantalla...
 "unknown": |-
-  Unknown
+  Desconocido
 "unmodified": |-
-  Unmodified
+  Sin alterar
 "unnamed": |-
   Sin nombre
 "unspecified": |-
-  Unspecified
+  Sin especificar
 "update_check": |-
-  Check for application update...
+  Buscar actualizaciones de la aplicación...
 "update_check.fail": |-
-  Check for application update failed:
+  No se pudo buscar actualizaciones de la aplicación:
 "update_check.fail.version": |-
-  Remote version file from server %s couldn't be parsed.
+  El archivo remoto del servidor %s parece ser ilegible.
 "update_check.new_version": |-
-  An update is available: %s
+  Hay una nueva versión disponible: %s
 "update_check.onstartup": |-
   Buscar actualizaciones al iniciar el programa
 "update_check.uptodate": |-
@@ -2523,9 +2523,9 @@
 "video_ReShade.icc": |-
   Video 3D LUT for ReShade (D65, Rec. 709 / Rec. 1886)
 "video_camera": |-
-  Video camera
+  Cámara de vídeo
 "video_card_gamma_table": |-
-  Video card gamma table
+  Tabla gamma de la tarjeta gráfica
 "video_eeColor.icc": |-
   Video 3D LUT for eeColor (D65, Rec. 709 / Rec. 1886)
 "video_madVR.icc": |-
@@ -2541,11 +2541,11 @@
 "view.3d": |-
   Vista 3D
 "viewing_conditions": |-
-  Viewing conditions
+  Condiciones de visionado
 "viewing_conditions_description": |-
-  Viewing conditions description
+  Descripción de las condiciones de visionado
 "vrml_to_x3d_converter": |-
-  VRML to X3D converter
+  Conversor de VRML a X3D
 "warning": |-
   Advertencia
 "warning.already_exists": |-
@@ -2583,7 +2583,7 @@
   ΔC*00 RGB-XYZ: ΔC*00 of measured values towards the sRGB equivalent of the RGB numbers.
   ΔH*00 RGB-XYZ: ΔH*00 of measured values towards the sRGB equivalent of the RGB numbers.
 "warning.system_file": |-
-  Warning: “%s” is a system file. Do you really want to continue?
+  Cuidado: «%s» es un archivo del sistema. ¿Seguro que quieres cambiarlo?
 "webserver.waiting": |-
   El servidor Web está en espera
 "welcome": |-
