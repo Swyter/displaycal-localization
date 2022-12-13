@@ -394,7 +394,7 @@
 "calibration.interactive_display_adjustment.start": |-
   Comenzar medición
 "calibration.interactive_display_adjustment.stop": |-
-  Deneter medición
+  Detener medición
 "calibration.interactive_display_adjustment.white_level.crt": |-
   Select “Start measurement” and adjust your display's contrast and/or RGB gain controls to match the desired level.
 "calibration.interactive_display_adjustment.white_level.lcd": |-
@@ -1816,7 +1816,7 @@
 "patch.layout.select": |-
   Please select a patch layout:
 "patches": |-
-  Patches
+  Muestras de color
 "patterngenerator.prisma.specify_host": |-
   Please specify the hostname of your Prisma Video Processor, e.g. prisma-0123 (Windows) or prisma-0123.local (Linux/Mac OS X). You can find the hostname on a label at the underside of the Prisma, unless it was changed via the Prisma's administrative web interface. Alternatively, enter the IP address (if known), e.g. 192.168.1.234
 "patterngenerator.sync_lost": |-
@@ -2237,7 +2237,7 @@
 "tc.angle": |-
   Ángulo
 "tc.black": |-
-  Black patches
+  Muestras de color negro
 "tc.dark_emphasis": |-
   Dark region emphasis
 "tc.fullspread": |-
@@ -2259,11 +2259,11 @@
 "tc.ofp": |-
   Optimized farthest point sampling
 "tc.patch": |-
-  Patch
+  Muestra de color
 "tc.patches.selected": |-
-  selected
+  elegidas
 "tc.patches.total": |-
-  Total patches
+  Número total de muestras
 "tc.precond": |-
   Preconditioning profile
 "tc.precond.notset": |-
@@ -2285,7 +2285,7 @@
 "tc.vrml.use_D50": |-
   Neutral RGB white
 "tc.white": |-
-  White patches
+  Muestras de color blancas
 "technology": |-
   Tecnología
 "tempdir_should_still_contain_files": |-
@@ -2297,7 +2297,7 @@
 "testchart.auto_optimize.untethered.unsupported": |-
   The untethered virtual display does not support testchart auto-optimization.
 "testchart.change_patch_order": |-
-  Change patch order
+  Reordenar muestras de color
 "testchart.confirm_select": |-
   File saved. Do you want to select this testchart?
 "testchart.create": |-
@@ -2325,9 +2325,9 @@
 "testchart.optimize_display_response_delay": |-
   Minimizar el retardo en el tiempo de respuesta de la pantalla
 "testchart.patch_sequence": |-
-  Patch sequence
+  Secuencia de muestras de color
 "testchart.patches_amount": |-
-  Amount of patches
+  Número de muestras de color
 "testchart.read": |-
   Reading testchart...
 "testchart.save_or_discard": |-
