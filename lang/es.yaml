@@ -1722,7 +1722,7 @@
 "model": |-
   Modelo
 "motion_picture_film_scanner": |-
-  Motion picture film scanner
+  Escáner de película cinematográfica
 "mswin.open_display_settings": |-
   Abrir los ajustes de pantalla de Windows...
 "named_color_profile": |-
@@ -1778,11 +1778,11 @@
 "oem.import.auto_windows": |-
   If the vendor software for your colorimeter is installed, the required files can be found automatically in most cases.
 "office_web.icc": |-
-  Office & Web (D65, Gamma 2.2)
+  Oficina y Web (D65, Gamma 2.2)
 "offset": |-
   Offset
 "offset_lithography": |-
-  Offset lithography
+  Impresión ófset
 "ok": |-
   Aceptar
 "or": |-
@@ -1848,7 +1848,7 @@
 "platform": |-
   Plataforma
 "please_wait": |-
-  Please wait...
+  Espera un momento...
 "port.invalid": |-
   El puerto no parece ser correcto: %s
 "positive": |-
@@ -1858,11 +1858,11 @@
 "prepress.icc": |-
   Prepress (D50, 130 cd/m², L*)
 "preserve_hue": |-
-  Preserve hue
+  Conservar tonalidad
 "preserve_luminance": |-
-  Preserve luminance
+  Conservar luminancia
 "preserve_saturation": |-
-  Preserve saturation
+  Conservar saturación
 "preset": |-
   Preset
 "preview": |-
@@ -1938,19 +1938,19 @@
   %y	Year without century
   %Y	Year with century
 "profile.no_embedded_ti3": |-
-  The profile does not contain Argyll compatible measurement data.
+  El perfil no contiene datos de medición compatibles con Argyll.
 "profile.no_vcgt": |-
-  The profile does not contain calibration curves.
+  El perfil no contiene curvas de calibración.
 "profile.only_named_color": |-
   Only profiles of type “Named Color” can be used.
 "profile.quality": |-
   Calidad del perfil
 "profile.quality.b2a.low": |-
-  Low quality PCS-to-device tables
+  Tablas PCS-to-device de baja calidad
 "profile.quality.b2a.low.info": |-
   Choose this option if the profile is only going to be used with inverse device-to-PCS gamut mapping to create a device link or 3D LUT
 "profile.required_tags_missing": |-
-  The profile is missing required tags: %s
+  El perfil no tiene las siguientes etiquetas necesarias: %s
 "profile.self_check": |-
   Profile self check ΔE*76
 "profile.self_check.avg": |-
@@ -2079,7 +2079,7 @@
 "ready": |-
   Listo.
 "red": |-
-  Red
+  Rojo
 "red_gamma": |-
   Red gamma
 "red_lab": |-
@@ -2223,7 +2223,7 @@
 "target": |-
   Target
 "tc.3d": |-
-  Create diagnostic 3D file
+  Crear un archivo 3D para diagnosticar
 "tc.I": |-
   Perceptual space body centered cubic grid
 "tc.Q": |-
@@ -2277,13 +2277,13 @@
 "tc.single": |-
   Single channel patches
 "tc.single.perchannel": |-
-  per channel
+  por canal
 "tc.t": |-
   Incremental far point sampling
 "tc.vrml.black_offset": |-
   RGB black offset (L*)
 "tc.vrml.use_D50": |-
-  Neutral RGB white
+  Blanco RGB neutro
 "tc.white": |-
   Muestras de color blancas
 "technology": |-
@@ -2609,7 +2609,7 @@
 "whitepoint.simulate.relative": |-
   Relative to display profile whitepoint
 "whitepoint.visual_editor": |-
-  Visual whitepoint editor
+  Editor visual de punto blanco
 "whitepoint.visual_editor.display_changed.warning": |-
   Attention: The display configuration has changed and the visual whitepoint editor may no longer be able to correctly restore display profiles. Please check display profile associations carefully after closing the editor and restart DisplayCAL.
 "whitepoint.xy": |-
