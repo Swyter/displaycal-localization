@@ -272,7 +272,7 @@
 "auth.failed": |-
   La autenticación ha fallado.
 "auto": |-
-  Auto
+  Automático
 "auto_optimized": |-
   Optimizado automáticamente
 "autostart_remove_old": |-
@@ -286,7 +286,7 @@
 "black": |-
   Negro
 "black_lab": |-
-  Black L*a*b*
+  Negro en L*a*b*
 "black_point": |-
   Punto negro
 "black_point_compensation": |-
@@ -296,31 +296,31 @@
 "black_point_compensation.info": |-
   Black point compensation effectively prevents black crush, but reduces the accuracy of color conversion.
 "black_white": |-
-  Black & white
+  Blanco y negro
 "black_xyz": |-
-  Black XYZ
+  Negro en XYZ
 "blacklevel": |-
   Black level
 "blue": |-
-  Blue
+  Azul
 "blue_gamma": |-
-  Blue gamma
+  Gamma del azul
 "blue_lab": |-
-  Blue L*a*b*
+  Azul en L*a*b*
 "blue_matrix_column": |-
   Blue matrix column
 "blue_maximum": |-
-  Blue maximum
+  Valor azul máximo
 "blue_minimum": |-
-  Blue minimum
+  Valor azul mínimo
 "blue_tone_response_curve": |-
   Blue tone response curve
 "blue_xyz": |-
-  Blue XYZ
+  Azul en XYZ
 "bradford": |-
   Bradford (ICC recommendation)
 "brightness": |-
-  Brightness
+  Brillo
 "browse": |-
   Examinar...
 "bs": |-
@@ -2081,21 +2081,21 @@
 "red": |-
   Rojo
 "red_gamma": |-
-  Red gamma
+  Gamma del rojo
 "red_lab": |-
-  Red L*a*b*
+  Rojo en L*a*b*
 "red_matrix_column": |-
   Red matrix column
 "red_maximum": |-
-  Red maximum
+  Valor rojo máximo
 "red_minimum": |-
-  Red minimum
+  Valor rojo mínimo
 "red_tone_response_curve": |-
   Red tone response curve
 "red_xyz": |-
-  Red XYZ
+  Rojo en XYZ
 "reference": |-
-  Reference
+  Referencia
 "reflection_hardcopy_original_colorimetry": |-
   Reflection hardcopy original colorimetry
 "reflection_print_output_colorimetry": |-
@@ -2201,15 +2201,15 @@
 "softproof.icc": |-
   Softproof (5800K, 160 cd/m², L*)
 "spectral": |-
-  Spectral
+  Espectral
 "spectral_resolution": |-
-  Spectral resolution
+  Resolución espectral
 "ssl.certificate_verify_failed": |-
-  The remote certificate could not be verified.
+  No se pudo validar el certificado recibido.
 "ssl.certificate_verify_failed.root_ca_missing": |-
-  The remote certificate could not be verified because no suitable root certificates were found on the local system.
+  El certificado recibido no se puede validar porque el equipo local no comparte los certificados raíz de los que pende.
 "ssl.handshake_failure": |-
-  Handshake failure. A secure connection could not be established.
+  No se pudo establecer una conexión segura durante el protocolo de negociación.
 "startup": |-
   Arrancando...
 "startup_sound.enable": |-
@@ -2221,7 +2221,7 @@
 "synthicc.create": |-
   Crear perfil ICC sintético...
 "target": |-
-  Target
+  Objetivo
 "tc.3d": |-
   Crear un archivo 3D para diagnosticar
 "tc.I": |-
@@ -2281,7 +2281,7 @@
 "tc.t": |-
   Incremental far point sampling
 "tc.vrml.black_offset": |-
-  RGB black offset (L*)
+  Desplazar el color negro RGB (L*)
 "tc.vrml.use_D50": |-
   Blanco RGB neutro
 "tc.white": |-
@@ -2517,27 +2517,27 @@
 "vga": |-
   VGA
 "video.icc": |-
-  Video (D65, Rec. 1886)
+  Vídeo (D65, Rec. 1886)
 "video_Prisma.icc": |-
-  Video 3D LUT for Prisma (D65, Rec. 709 / Rec. 1886)
+  Vídeo 3D LUT para Prisma (D65, Rec. 709 / Rec. 1886)
 "video_ReShade.icc": |-
-  Video 3D LUT for ReShade (D65, Rec. 709 / Rec. 1886)
+  Vídeo 3D LUT para ReShade (D65, Rec. 709 / Rec. 1886)
 "video_camera": |-
   Cámara de vídeo
 "video_card_gamma_table": |-
   Tabla gamma de la tarjeta gráfica
 "video_eeColor.icc": |-
-  Video 3D LUT for eeColor (D65, Rec. 709 / Rec. 1886)
+  Vídeo 3D LUT para eeColor (D65, Rec. 709 / Rec. 1886)
 "video_madVR.icc": |-
-  Video 3D LUT for madVR (D65, Rec. 709 / Rec. 1886)
+  Vídeo 3D LUT para madVR (D65, Rec. 709 / Rec. 1886)
 "video_madVR_ST2084.icc": |-
-  Video 3D LUT for madVR HDR (D65, Rec. 2020 / SMPTE 2084 / BT.2390)
+  Vídeo 3D LUT para madVR HDR (D65, Rec. 2020 / SMPTE 2084 / BT.2390)
 "video_monitor": |-
   Monitor de vídeo
 "video_resolve.icc": |-
-  Video 3D LUT for Resolve (D65, Rec. 709 / Rec. 1886)
+  Video 3D LUT para Resolve (D65, Rec. 709 / Rec. 1886)
 "video_resolve_ST2084_clip.icc": |-
-  Video 3D LUT for Resolve HDR (D65, Rec. 2020 / SMPTE 2084)
+  Video 3D LUT para Resolve HDR (D65, Rec. 2020 / SMPTE 2084)
 "view.3d": |-
   Vista 3D
 "viewing_conditions": |-
@@ -2603,7 +2603,7 @@
 "whitepoint.colortemp.locus.daylight": |-
   Luz del día
 "whitepoint.set": |-
-  Do you also want to set the whitepoint to the measured value?
+  ¿Quieres que el punto blanco asignado refleje el valor medido?
 "whitepoint.simulate": |-
   Simular punto blanco
 "whitepoint.simulate.relative": |-
@@ -2625,10 +2625,10 @@
 "xyz_scaling": |-
   XYZ scaling (“wrong von Kries”)
 "yellow": |-
-  Yellow
+  Amarillo
 "yellow_lab": |-
-  Yellow L*a*b*
+  Amarillo en L*a*b*
 "yellow_xyz": |-
-  Yellow XYZ
+  Amarillo en XYZ
 "yes": |-
   Sí
