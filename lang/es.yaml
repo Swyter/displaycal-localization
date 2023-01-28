@@ -25,9 +25,9 @@
 "3dlut.enable": |-
   Activar LUT 3D
 "3dlut.encoding.input": |-
-  Input encoding
+  Codificación de entrada
 "3dlut.encoding.output": |-
-  Output encoding
+  Codificación de salida
 "3dlut.encoding.output.warning.madvr": |-
   Warning: This output encoding is not recommended and will cause clipping if madVR is not set up to output “TV levels (16-235)” under “Devices” → “%s” → “Properties”. Use at own risk!
 "3dlut.encoding.type_2": |-
@@ -51,7 +51,7 @@
 "3dlut.encoding.type_x": |-
   TV xvYCC Rec. 601 YCbCr (Rec. 709 Primaries) SD
 "3dlut.format": |-
-  3D LUT file format
+  Formato de archivo de LUT 3D
 "3dlut.format.3dl": |-
   Autodesk / Kodak (.3dl)
 "3dlut.format.ReShade": |-
@@ -63,15 +63,15 @@
 "3dlut.format.eeColor": |-
   eeColor Processor (.txt)
 "3dlut.format.icc": |-
-  Device link profile (.icc/.icm)
+  Perfil device link (.icc/.icm)
 "3dlut.format.madVR": |-
   madVR (.3dlut)
 "3dlut.format.madVR.hdr": |-
-  Process HDR content
+  Procesar contenido HDR
 "3dlut.format.madVR.hdr.confirm": |-
   Note that you need to have profiled the display in HDR mode. If the display doesn't support HDR natively, click “Cancel”.
 "3dlut.format.madVR.hdr_to_sdr": |-
-  Convert HDR content to SDR
+  Convertir contenido HDR a SDR
 "3dlut.format.mga": |-
   Pandora (.mga)
 "3dlut.format.png": |-
@@ -79,11 +79,11 @@
 "3dlut.format.spi3d": |-
   Sony Imageworks (.spi3d)
 "3dlut.frame.title": |-
-  Create 3D LUT
+  Crear LUT 3D
 "3dlut.hdr.rolloff.diffuse_white": |-
-  Diffuse white (reference 94.38 cd/m²)
+  Diffuse white (referencia 94.38 cd/m²)
 "3dlut.hdr.system_gamma": |-
-  System gamma (reference 1.2)
+  Gamma del sistema (referencia 1.2)
 "3dlut.holder.assign_preset": |-
   Assign 3D LUT to preset:
 "3dlut.holder.out_of_memory": |-
@@ -153,9 +153,9 @@
 "aborted": |-
   ...cancelado.
 "aborting": |-
-  Aborting, please wait (this may take a few seconds)...
+  Cancelando, espera un segundo (porque puede tardar un poco)...
 "abstract_profile": |-
-  Abstract profile
+  Perfil abstracto
 "active_matrix_display": |-
   Active matrix display
 "adaptive_mode_unavailable": |-
@@ -169,17 +169,17 @@
 "allow_skip_sensor_cal": |-
   Allow skipping of instrument self-calibration
 "ambient.measure": |-
-  Measure ambient
+  Medir luz del entorno
 "ambient.measure.color.unsupported": |-
   %s: The color of ambient light could not be determined using this instrument because its ambient sensor seems to be monochromatic (only got a light level reading).
 "ambient.measure.light_level.missing": |-
-  Didn't get a light level reading.
+  No se pudo obtener una lectura lumínica.
 "ambient.set": |-
-  Do you also want to set the ambient light level to the measured value?
+  ¿Quieres que el nivel de iluminación del entorno también se establezca al valor medido?
 "app.client.connect": |-
-  Scripting client %s:%s connected
+  Cliente programable %s:%s conectado
 "app.client.disconnect": |-
-  Scripting client %s:%s disconnected
+  Cliente programable %s:%s desconectado
 "app.client.ignored": |-
   Refused connection attempt of scripting client %s:%s: %s
 "app.client.network.disallowed": |-
@@ -187,9 +187,9 @@
 "app.confirm_restore_defaults": |-
   ¿Seguro que quieres perder todos tus cambios y volver a los valores originales?
 "app.detected": |-
-  Detected %s.
+  Detectado %s.
 "app.detected.calibration_loading_disabled": |-
-  Detected %s. Calibration loading disabled.
+  Detectado %s. Se ha desactivado la carga de calibración .
 "app.detection_lost": |-
   No longer detecting %s.
 "app.detection_lost.calibration_loading_enabled": |-
@@ -223,20 +223,20 @@
 "argyll.debug.warning2": |-
   Please remember to disable debugging output for normal operation of the software.
 "argyll.dir": |-
-  ArgyllCMS executable directory:
+  Carpeta con el ejecutable de ArgyllCMS:
 "argyll.dir.invalid": |-
-  ArgyllCMS executables not found!
+  No se ha encontrado ningún ejecutable de ArgyllCMS
   Please select the directory which contains the executable files (maybe prefixed or suffixed “argyll-” / “-argyll”): %s
 "argyll.error.detail": |-
-  Detailed ArgyllCMS error message:
+  Mensaje de error del propio ArgyllCMS:
 "argyll.instrument.configuration_files.install": |-
-  Install ArgyllCMS instrument configuration files...
+  Instalar los archivos de configuración de instrumentos para ArgyllCMS...
 "argyll.instrument.configuration_files.install.success": |-
-  Installation of ArgyllCMS instrument configuration files complete.
+  Se ha completado la instalación de la configuración de instrumentos para ArgyllCMS.
 "argyll.instrument.configuration_files.uninstall": |-
-  Uninstall ArgyllCMS instrument configuration files...
+  Desinstalar los archivos de configuración de instrumentos para ArgyllCMS...
 "argyll.instrument.configuration_files.uninstall.success": |-
-  Uninstallation of ArgyllCMS instrument configuration files complete.
+  Se ha completado la desinstalación de la configuración de instrumentos para ArgyllCMS.
 "argyll.instrument.driver.missing": |-
   The ArgyllCMS driver for your measurement device seems not to be installed or installed incorrectly. Please check if your measurement device is shown in Windows' Device Manager under “Argyll LibUSB-1.0A devices” and (re-)install the driver if necessary. Please read the documentation for installation instructions.
 "argyll.instrument.drivers.install": |-
@@ -244,7 +244,7 @@
 "argyll.instrument.drivers.install.confirm": |-
   You only need to install the ArgyllCMS specific drivers if you have a measurement instrument that is not a ColorMunki Display, i1 Display Pro, Huey, ColorHug, specbos, spectraval or K-10.
   
-  Do you want to proceed?
+  ¿Seguro que quieres seguir?
 "argyll.instrument.drivers.install.failure": |-
   Installation of ArgyllCMS instrument drivers failed.
 "argyll.instrument.drivers.install.restart": |-
@@ -254,7 +254,7 @@
 "argyll.instrument.drivers.uninstall.confirm": |-
   Note: Uninstallation doesn't affect instrument drivers that are currently in use, but just removes the driver from Windows' Driver Store. If you want to switch back to an installed vendor-supplied driver for your instrument, you'll have to use Windows' Device Manager to manually switch to the vendor driver. To do that, right click on the instrument and select “Update Driver Software...”, then choose “Browse my computer for driver software”, “Let me pick from a list of device drivers on my computer” and finally select the vendor driver for your instrument from the list.
   
-  Do you want to proceed?
+  ¿Seguro que quieres seguir?
 "argyll.instrument.drivers.uninstall.failure": |-
   Uninstallation of ArgyllCMS instrument drivers failed.
 "argyll.instrument.drivers.uninstall.success": |-
@@ -264,7 +264,7 @@
 "argyll.util.not_found": |-
   No se ha encontrado el ejecutable «%s» de ArgyllCMS
 "as_measured": |-
-  As measured
+  Tal y como se mide
 "audio.lib": |-
   Módulo de sonido: %s
 "auth": |-
