@@ -1954,13 +1954,13 @@
 "profile.self_check": |-
   Profile self check ΔE*76
 "profile.self_check.avg": |-
-  average
+  promedio
 "profile.self_check.max": |-
-  maximum
+  máximo
 "profile.self_check.rms": |-
-  RMS
+  media cuadrática (RMS)
 "profile.set_save_path": |-
-  Choose save path...
+  Examinar ruta de destino...
 "profile.settings": |-
   Ajustes del perfil
 "profile.share": |-
@@ -2007,23 +2007,23 @@
 "profile.type": |-
   Tipo de perfil
 "profile.type.gamma_matrix": |-
-  Gamma + matrix
+  Gamma + matriz
 "profile.type.lut.lab": |-
-  L*a*b* LUT
+  LUT L*a*b*
 "profile.type.lut.xyz": |-
-  XYZ LUT
+  LUT XYZ
 "profile.type.lut_matrix.xyz": |-
-  XYZ LUT + matrix
+  LUT XYZ + matriz
 "profile.type.lut_rg_swapped_matrix.xyz": |-
-  XYZ LUT + swapped matrix
+  LUT XYZ + matriz invertida
 "profile.type.shaper_matrix": |-
-  Curves + matrix
+  Curvas + matriz
 "profile.type.single_gamma_matrix": |-
-  Single gamma + matrix
+  Gamma única + matriz
 "profile.type.single_shaper_matrix": |-
-  Single curve + matrix
+  Curva única + matriz
 "profile.unsupported": |-
-  Unsupported profile type (%s) and/or colorspace (%s).
+  Tipo de perfil (%s) y/o espacio de color (%s) desconocidos.
 "profile.update": |-
   Actualizar perfil
 "profile_associations": |-
@@ -2035,15 +2035,15 @@
 "profile_class": |-
   Tipo de perfil
 "profile_connection_space_pcs": |-
-  Profile connection space (PCS)
+  Espacio de color de conexión (PCS)
 "profile_loader": |-
   Cargaperfiles
 "profile_loader.disable": |-
   Desactivar el cargaperfiles
 "profile_loader.exceptions.known_app.error": |-
-  The profile loader disables itself automatically while %s is running. You cannot override this behavior.
+  El cargaperfiles se desactiva él solo cuando «%s» pasa a un primer plano. No se puede cambiar ni desactivar.
 "profile_loader.exit_warning": |-
-  Do you really want to quit the profile loader? Calibration will no longer be automatically reloaded if you change the display configuration!
+  ¿Seguro que quieres cerrar el cargaperfiles? Ten en cuenta que no se restaurará ni recargará la calibración de forma automática al cambiar la configuración de la pantalla.
 "profile_loader.fix_profile_associations": |-
   Arreglar problemas de asociación de forma automática
 "profile_loader.fix_profile_associations_warning": |-
@@ -2117,15 +2117,15 @@
 "report.uncalibrated": |-
   Report on uncalibrated display device
 "report.uniformity": |-
-  Measure display device uniformity...
+  Medir la uniformidad a lo largo de la pantalla...
 "reset": |-
-  Reset
+  Restablecer
 "resources.notfound.error": |-
   Fatal error: A required file has not been found:
 "resources.notfound.warning": |-
   Warning: Some required files have not been found:
 "response.invalid": |-
-  Invalid response from %s: %s
+  Se ha recibido una respuesta desconocida desde %s: %s
 "response.invalid.missing_key": |-
   Invalid response from %s: Missing key “%s”: %s
 "response.invalid.value": |-
@@ -2135,27 +2135,27 @@
 "retry": |-
   Reintentar
 "rgb.trc": |-
-  RGB transfer function
+  Función de transferencia RGB
 "rgb.trc.averaged": |-
-  averaged RGB transfer function
+  Función de transferencia RGB promedio
 "sRGB.icc": |-
   sRGB
 "saturation": |-
-  Saturation
+  Saturación
 "save": |-
   Guardar
 "save_as": |-
   Guardar como...
 "scene_appearance_estimates": |-
-  Scene appearance estimates
+  Estimaciones de apariencia de escena
 "scene_colorimetry_estimates": |-
-  Scene colorimetry estimates
+  Estimaciones colorimétricas de escena
 "scripting-client": |-
-  DisplayCAL Scripting Client
+  Cliente programable de DisplayCAL
 "scripting-client.cmdhelptext": |-
-  Press the tab key at an empty command prompt to view the possible commands in the current context, or to auto-complete already typed initial letters. Type “getcommands” for a list of supported commands and possible parameters for the connected application.
+  Presiona la tecla Tab en una línea de entrada de texto vacía para ver las órdenes disponibles, así como para autocompletar órdenes a medio escribir. Escribe «getcommands» para ver un listado de las órdenes disponibles y sus parámetros para la aplicación conectada.
 "scripting-client.detected-hosts": |-
-  Detected scripting hosts:
+  Servidores de script detectados:
 "select_all": |-
   Seleccionar todo
 "self_check_report": |-
@@ -2217,7 +2217,7 @@
 "success": |-
   ...bien.
 "surround_xyz": |-
-  Surround XYZ
+  XYZ del entorno de visionado
 "synthicc.create": |-
   Crear perfil ICC sintético...
 "target": |-
@@ -2229,7 +2229,7 @@
 "tc.Q": |-
   Perceptual space filling quasi-random
 "tc.R": |-
-  Perceptual space random
+  Al azar en el espacio perceptual
 "tc.adaption": |-
   Adaption
 "tc.algo": |-
@@ -2239,7 +2239,7 @@
 "tc.black": |-
   Muestras de color negro
 "tc.dark_emphasis": |-
-  Dark region emphasis
+  Énfasis en la región oscura
 "tc.fullspread": |-
   Iterative patches
 "tc.gray": |-
@@ -2247,9 +2247,9 @@
 "tc.i": |-
   Device space body centered cubic grid
 "tc.limit.sphere": |-
-  Limit samples to sphere
+  Limitar muestras a un área esférica
 "tc.limit.sphere_radius": |-
-  Radius
+  Radio
 "tc.multidim": |-
   Multidimensional
 "tc.multidim.patches": |-
@@ -2623,7 +2623,7 @@
 "working_dir": |-
   Carpeta actual:
 "xyz_scaling": |-
-  Escalado en XYZ (“wrong von Kries”)
+  Escalado en XYZ («wrong von Kries»)
 "yellow": |-
   Amarillo
 "yellow_lab": |-
