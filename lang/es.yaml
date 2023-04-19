@@ -324,9 +324,9 @@
 "browse": |-
   Examinar...
 "bs": |-
-  Bianco & Schettini
+  «Bianco y Schettini»
 "bs_pc": |-
-  Bianco & Schettini with positivity constraint
+  «Bianco y Schettini» con limitación de valores positivos
 "bug_report": |-
   Informar de un problema...
 "button.calibrate": |-
@@ -334,53 +334,53 @@
 "button.calibrate_and_profile": |-
   Calibrar y crear un perfil
 "button.profile": |-
-  Profile only
+  Solo perfilar
 "cal_extraction_failed": |-
   Could not extract calibration data from the profile.
 "calculated_checksum": |-
-  Calculated checksum
+  Suma de comprobación generada
 "calibrate_instrument": |-
-  Instrument self-calibration
+  Autocalibración del instrumento
 "calibration": |-
   Calibración
 "calibration.ambient_viewcond_adjust": |-
-  Ambient light level adjustment
+  Ajuste del nivel de luz ambiental
 "calibration.ambient_viewcond_adjust.info": |-
   To perform a viewing condition adjustment when computing calibration curves, tick the checkbox and enter your ambient light level. You can also optionally measure ambient light, if supported by your instrument.
 "calibration.black_luminance": |-
-  Black level
+  Nivel del negro
 "calibration.black_output_offset": |-
   Black output offset
 "calibration.black_point_correction": |-
-  Black point correction
+  Corrección de punto negro
 "calibration.black_point_correction_choice": |-
   You may turn off black point correction, to optimize black level and contrast ratio (recommended for most LCD monitors), or you can turn it on to make black the same hue as the whitepoint (recommended for most CRT monitors). Please select your black point correction preference.
 "calibration.black_point_rate": |-
   Rate
 "calibration.check_all": |-
-  Check settings
+  Comprobar ajustes
 "calibration.complete": |-
   Calibración concluida
 "calibration.create_fast_matrix_shaper": |-
-  Create matrix profile
+  Crear perfil de matriz
 "calibration.create_fast_matrix_shaper_choice": |-
   Do you want to create a fast matrix shaper profile from calibration measurements or just calibrate?
 "calibration.do_not_use_video_lut": |-
   Do not use video card gamma table to apply calibration
 "calibration.do_not_use_video_lut.warning": |-
-  Do you really want to change the recommended setting?
+  ¿Seguro que quieres cambiar los ajustes recomendados?
 "calibration.embed": |-
-  Embed calibration curves in profile
+  Guardar las curvas de calibración dentro del propio perfil
 "calibration.file": |-
   Ajustes
 "calibration.file.invalid": |-
-  The chosen settings file is invalid.
+  Parece que el archivo de configuración elegido no es del tipo correcto.
 "calibration.file.none": |-
   <Ninguna>
 "calibration.incomplete": |-
   La calibración todavía no ha terminado.
 "calibration.interactive_display_adjustment": |-
-  Interactive display adjustment
+  Ajuste interactivo de la pantalla
 "calibration.interactive_display_adjustment.black_level.crt": |-
   Select “Start measurement” and adjust your display's brightness and/or RGB offset controls to match the desired level.
 "calibration.interactive_display_adjustment.black_point.crt": |-
@@ -424,13 +424,13 @@
 "calibration.loading_from_display_profile": |-
   Loading calibration curves of current display device profile...
 "calibration.luminance": |-
-  White level
+  Nivel de blancos
 "calibration.lut_viewer.title": |-
-  Curves
+  Curvas
 "calibration.preserve": |-
   Preserve calibration state
 "calibration.preview": |-
-  Preview calibration
+  Vista previa de la calibración
 "calibration.quality": |-
   Calidad de la calibración
 "calibration.quality.high": |-
@@ -444,7 +444,7 @@
 "calibration.quality.verylow": |-
   Muy baja
 "calibration.reset": |-
-  Reset video card gamma table
+  Restablecer la tabla gamma de la tarjeta gráfica
 "calibration.reset_error": |-
   Video card gamma table could not be reset.
 "calibration.reset_success": |-
@@ -458,7 +458,7 @@
 "calibration.show_lut": |-
   Ver curvas
 "calibration.skip": |-
-  Continue on to profiling
+  Saltar y empezar con el perfilado
 "calibration.speed": |-
   Velocidad de calibración
 "calibration.speed.high": |-
@@ -478,7 +478,7 @@
 "calibration.update_profile_choice": |-
   Do you want to also update the calibration curves in the existing profile or just calibrate?
 "calibration.use_linear_instead": |-
-  Use linear calibration instead
+  Cambiar a calibración de tipo lineal
 "calibration.verify": |-
   Verificar calibración
 "calibration_profiling.complete": |-
@@ -500,9 +500,9 @@
 "ccmx.use_four_color_matrix_method": |-
   Minimize xy chromaticity difference
 "ccss.CCFLFamily_07Feb11": |-
-  LCD CCFL family (AC, EIZO, HP)
+  LCD de tipo CCFL (AC, EIZO, HP)
 "ccss.FSI_XM55U_23Jan19": |-
-  WOLED family, SDR Rec. 709 gamut mode (FSI XM55U/XM65U, LG OLED)
+  WOLED y derivados, SDR Rec. 709 gamut mode (FSI XM55U/XM65U, LG OLED)
 "ccss.GBrLED_25Jul12": |-
   LCD GB-r-LED IPS (Dell U2413)
 "ccss.HP_DC3": |-
@@ -520,7 +520,7 @@
 "ccss.OLEDFamily_20Jul12": |-
   RGB OLED (Sony PVM-2541)
 "ccss.OLEDFamily_28Aug18": |-
-  RGB OLED family (Sony PVM-2541, Samsung Galaxy S7, Lenovo LEN4140)
+  RGB OLED y derivados (Sony PVM-2541, Samsung Galaxy S7, Lenovo LEN4140)
 "ccss.PFS_Phosphor_Adobe_RGB_31Jan17": |-
   LCD PFS Phosphor WLED, 98% Adobe RGB
 "ccss.PFS_Phosphor_Family_31Jan17": |-
@@ -530,7 +530,7 @@
 "ccss.PlasmaFamily_20Jul12": |-
   Plasma
 "ccss.ProjectorFamily_07Feb11": |-
-  Projector family (Marantz, HP, Panasonic)
+  Proyectores (Marantz, HP, Panasonic)
 "ccss.RGBLEDFamily_07Feb11": |-
   LCD RGB LED family (HP, SOYO)
 "ccss.RG_Phosphor_Family_13Dec11": |-
@@ -548,7 +548,7 @@
 "ccxx.ti1": |-
   Testchart for colorimeter correction
 "centered": |-
-  Centered
+  Centrado
 "channel_1_c_xy": |-
   Channel 1 (C) xy
 "channel_1_gamma_at_50_input": |-
@@ -640,7 +640,7 @@
 "colorants_pcs_relative": |-
   Colorants (PCS-relative)
 "colorimeter_correction.create": |-
-  Create colorimeter correction...
+  Crear corrección colorimétrica...
 "colorimeter_correction.create.details": |-
   Please check the fields below and change them when necessary. The description should also contain important details (e.g. specific display settings, non-default CIE observer or the like).
 "colorimeter_correction.create.failure": |-
@@ -691,13 +691,13 @@
 "colorimeter_correction.web_check.info": |-
   Please note that all colorimeter corrections have been contributed by various users, and their usefulness to your particular situation is up to you to evaluate. They may or may not improve the absolute accuracy of your colorimeter with your display.
 "colorimeter_correction_matrix_file": |-
-  Correction
+  Corrección
 "colorimeter_correction_matrix_file.choose": |-
-  Choose colorimeter correction...
+  Elige una corrección para el colorímetro...
 "colorimetric_intent_image_state": |-
-  Colorimetric image state
+  Estado de la imagen colorimétrica
 "colors_pcs_relative": |-
-  Colors (PCS-relative)
+  Colores (PCS-relative)
 "colorspace": |-
   Espacio de colores
 "colorspace.show_outline": |-
@@ -735,15 +735,15 @@
 "contribute": |-
   Contribuir
 "converting": |-
-  Converting
+  Convirtiendo
 "copyright": |-
   Derechos de autor
 "corrected": |-
-  corrected
+  corregido
 "create_profile": |-
-  Create profile from measurement data...
+  Crear un perfil a partir de los datos de medición...
 "create_profile_from_edid": |-
-  Create profile from extended display identification data...
+  Crear un perfil a partir de los datos de identificación extendidos de la propia pantalla...
 "created": |-
   Fecha de creación
 "creator": |-
@@ -757,7 +757,7 @@
 "d3-e4-s2-g28-m0-b0-f0.ti1": |-
   Small testchart for matrix profiles
 "d3-e4-s3-g52-m3-b0-f0.ti1": |-
-  Default testchart
+  Testchart predeterminado
 "d3-e4-s4-g52-m4-b0-f0.ti1": |-
   Small testchart for LUT profiles
 "d3-e4-s5-g52-m5-b0-f0.ti1": |-
@@ -773,7 +773,7 @@
 "default.icc": |-
   Predeterminado (Gamma 2.2)
 "default_crt": |-
-  Default CRT
+  Predet. para pantalla de tubo de rayos catódicos (CRT)
 "default_rendering_intent": |-
   Propósito de conversión predet.
 "delete": |-
@@ -1111,7 +1111,7 @@
 "error.luminance.not_monotonically_increasing": |-
   The measured luminance response is highly non-monotonic (device or instrument fault). Cannot generate tone response curves.
 "error.malformed_cgats": |-
-  The %s file “%s” is malformed.
+  El archivo %s «%s» no parece tener un formato correcto.
 "error.measurement.file_invalid": |-
   The measurement file “%s” is invalid.
 "error.measurement.file_missing": |-
@@ -1151,9 +1151,9 @@
 "error.trashcan_unavailable": |-
   The %s is not available. No files were removed.
 "errors.none_found": |-
-  No errors found.
+  No se ha encontrado problema alguno.
 "estimated_measurement_time": |-
-  Estimated measurement time approximately %s hour(s) %s minutes
+  Tiempo de medición aproximado de %s hora/s y %s minuto/s
 "exceptions": |-
   Excepciones...
 "executable": |-
@@ -1161,9 +1161,9 @@
 "export": |-
   Exportar...
 "extra_args": |-
-  Set additional commandline arguments...
+  Proporcionar órdenes de arranque extra...
 "factory_default": |-
-  Factory Default
+  De fábrica
 "failure": |-
   ...¡ha fallado!
 "ffp_insertion": |-
@@ -1188,7 +1188,7 @@
 "filename": |-
   Nombre de archivo
 "filename.upload": |-
-  Upload filename
+  Subir nombre de archivo
 "filetype.7z": |-
   Archivos de 7-Zip
 "filetype.any": |-
@@ -1315,15 +1315,15 @@
 "gamut": |-
   Gamut
 "gamut.coverage": |-
-  Gamut coverage
+  Cobertura de gama de colores
 "gamut.view.create": |-
-  Generating gamut views...
+  Generando gráficos de gama de color...
 "gamut.volume": |-
-  Gamut volume
+  Volumen de la gama de colores
 "gamut_mapping.ciecam02": |-
   CIECAM02 gamut mapping
 "gamut_mapping.mode": |-
-  Gamut mapping mode
+  Modo de mapeado de la gama de col.
 "gamut_mapping.mode.b2a": |-
   PCS-to-device
 "gamut_mapping.mode.inverse_a2b": |-
@@ -1349,19 +1349,19 @@
 "green": |-
   Verde
 "green_gamma": |-
-  Green gamma
+  Gamma del verde
 "green_lab": |-
-  Green L*a*b*
+  L*a*b* del verde
 "green_matrix_column": |-
-  Green matrix column
+  Columna de la matriz del verde
 "green_maximum": |-
-  Green maximum
+  Mínimo del verde
 "green_minimum": |-
-  Green minimum
+  Máximo del verde
 "green_tone_response_curve": |-
   Green tone response curve
 "green_xyz": |-
-  Green XYZ
+  XYZ del verde
 "grid_steps": |-
   Grid Steps
 "hdmi": |-
@@ -1399,9 +1399,9 @@
 "illuminant_xyz": |-
   XYZ del iluminante
 "illumination": |-
-  Illumination
+  Iluminación
 "in": |-
-  In
+  En
 "info.3dlut_settings": |-
   A <font weight='bold'>3D LUT</font> (LUT = Look Up Table) or ICC device link profile can be used by 3D LUT or ICC device link capable applications for full <font weight='bold'>display color correction</font>.
   
@@ -1658,7 +1658,7 @@
 "measurement_mode.lcd.white_led": |-
   LCD con luz LED blanca
 "measurement_mode.lcd.wide_gamut.ccfl": |-
-  LCD CCFL Wide Gamut
+  LCD CCFL de amplia gama cromática
 "measurement_mode.lcd.wide_gamut.gb_led": |-
   LCD GB-r-LED
 "measurement_mode.lcd.wide_gamut.led": |-
