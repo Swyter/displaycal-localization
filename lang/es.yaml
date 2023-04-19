@@ -2063,11 +2063,11 @@
 "profiling": |-
   Perfilado
 "profiling.complete": |-
-  Profiling complete!
+  Se ha completado el perfilado.
 "profiling.incomplete": |-
-  Profiling has not been finished.
+  El perfilado todavía está en curso.
 "projection_television": |-
-  Projection television
+  TV de proyección trasera
 "projector": |-
   Proyector
 "projector_mode_unavailable": |-
@@ -2085,7 +2085,7 @@
 "red_lab": |-
   Rojo en L*a*b*
 "red_matrix_column": |-
-  Red matrix column
+  Columna de matriz del rojo
 "red_maximum": |-
   Valor rojo máximo
 "red_minimum": |-
@@ -2159,13 +2159,13 @@
 "select_all": |-
   Seleccionar todo
 "self_check_report": |-
-  Self check report...
+  Informe del autochequeo...
 "serial_number": |-
   Núm. de serie
 "set_as_default": |-
   Poner como principal
 "setting.keep_current": |-
-  Keep current setting
+  Mantener el ajuste actual
 "settings.additional": |-
   Ajustes extras
 "settings.basic": |-
@@ -2255,7 +2255,7 @@
 "tc.multidim.patches": |-
   steps = %s patches (%s neutral)
 "tc.neutral_axis_emphasis": |-
-  Neutral axis emphasis
+  Énfasis en el eje neutral
 "tc.ofp": |-
   Optimized farthest point sampling
 "tc.patch": |-
@@ -2269,7 +2269,7 @@
 "tc.precond.notset": |-
   Please select a preconditioning profile.
 "tc.preview.create": |-
-  Creating preview, please wait...
+  Generando vista previa, un momento...
 "tc.q": |-
   Device space filling quasi-random
 "tc.r": |-
@@ -2299,21 +2299,21 @@
 "testchart.change_patch_order": |-
   Reordenar muestras de color
 "testchart.confirm_select": |-
-  File saved. Do you want to select this testchart?
+  Se ha guardado el archivo. ¿Quieres marcar el testchart como elegido?
 "testchart.create": |-
-  Create testchart
+  Crear testchart
 "testchart.discard": |-
   Descartar
 "testchart.dont_select": |-
-  Don't select
+  No elegirlo
 "testchart.edit": |-
-  Edit testchart...
+  Editar testchart...
 "testchart.export.repeat_patch": |-
-  Repeat each patch:
+  Repetir cada patch:
 "testchart.file": |-
   Testchart
 "testchart.info": |-
-  Amount of patches in selected testchart
+  Cantidad de patches en el testchart elegido
 "testchart.interleave": |-
   Entrelazar
 "testchart.maximize_RGB_difference": |-
@@ -2329,9 +2329,9 @@
 "testchart.patches_amount": |-
   Número de muestras de color
 "testchart.read": |-
-  Reading testchart...
+  Leyendo testchart...
 "testchart.save_or_discard": |-
-  The testchart has not been saved.
+  No se ha podido guardar el testchart.
 "testchart.select": |-
   Elegir
 "testchart.separate_fixed_points": |-
@@ -2357,31 +2357,31 @@
 "testchart.sort_RGB_yellow_to_top": |-
   Sort RGB yellow to top
 "testchart.sort_by_BGR": |-
-  Sort by BGR
+  Ordenar por BGR
 "testchart.sort_by_HSI": |-
-  Sort by HSI
+  Ordenar por HSI
 "testchart.sort_by_HSL": |-
-  Sort by HSL
+  Ordenar por HSL
 "testchart.sort_by_HSV": |-
-  Sort by HSV
+  Ordenar por HSV
 "testchart.sort_by_L": |-
-  Sort by L*
+  Ordenar por L*
 "testchart.sort_by_RGB": |-
-  Sort by RGB
+  Ordenar por RGB
 "testchart.sort_by_RGB_sum": |-
-  Sort by sum of RGB
+  Ordenar por suma de RGB
 "testchart.sort_by_rec709_luma": |-
-  Sort by luma
+  Ordenar por luma
 "testchart.vary_RGB_difference": |-
   Vary RGB difference
 "testchart_or_reference": |-
   Testchart or reference
 "thermal_wax_printer": |-
-  Thermal wax printer
+  Impresora térmica de cera
 "tone_values": |-
   Valores tonales
 "transfer_function": |-
-  Transfer function
+  Función de transferencia
 "translations": |-
   Traducciones
 "transparency": |-
@@ -2549,9 +2549,9 @@
 "warning": |-
   Advertencia
 "warning.already_exists": |-
-  The file “%s” already exists at the chosen location and will be overwritten. Do you want to continue?
+  El archivo «%s» ya existe en la ubicación seleccionada y se sobrescribirá, ¿seguro que quieres seguir adelante?
 "warning.autostart_system": |-
-  The system-wide autostart directory could not be determined.
+  No se ha podido encontrar la carpeta de autoarranque global del sistema.
 "warning.autostart_user": |-
   The user-specific autostart directory could not be determined.
 "warning.discard_changes": |-
@@ -2559,7 +2559,7 @@
 "warning.gamap.out_viewcond.nondisplay": |-
   Destination viewing condition “%s” is not a display viewing condition. Do you still want to use it?
 "warning.input_value_clipping": |-
-  Warning: Values below the display profile blackpoint will be clipped!
+  Cuidado: Cualquier valor inferior al punto negro se cortará, ya que no puede ser inferior a ese valor mínimo.
 "warning.suspicious_delta_e": |-
   Warning: Suspicious measurements have been found. Please note this check assumes an sRGB-like display device. If your display device differs from this assumption (e.g. if it has a very wide gamut or a tone response too far from sRGB), then errors found are probably not meaningful.
   
@@ -2607,11 +2607,11 @@
 "whitepoint.simulate": |-
   Simular punto blanco
 "whitepoint.simulate.relative": |-
-  Relative to display profile whitepoint
+  Relativo al punto blanco del perfil de pantalla
 "whitepoint.visual_editor": |-
   Editor visual de punto blanco
 "whitepoint.visual_editor.display_changed.warning": |-
-  Attention: The display configuration has changed and the visual whitepoint editor may no longer be able to correctly restore display profiles. Please check display profile associations carefully after closing the editor and restart DisplayCAL.
+  Cuidado: La configuración de la pantalla ha cambiado y el editor visual de punto blanco puede que no sea capaz de devolver el perfil al estado anterior. Asegúrate de que los perfiles estén bien asociados a cada pantalla una vez hayas cerrado el editor y vuelve a iniciar DisplayCAL.
 "whitepoint.xy": |-
   Coordenadas de cromaticidad
 "window.title": |-
@@ -2623,7 +2623,7 @@
 "working_dir": |-
   Carpeta actual:
 "xyz_scaling": |-
-  XYZ scaling (“wrong von Kries”)
+  Escalado en XYZ (“wrong von Kries”)
 "yellow": |-
   Amarillo
 "yellow_lab": |-
